@@ -2,8 +2,8 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//vss calendar generator//fmindia.cmi.ac.in//EN
 BEGIN:VEVENT
-SUMMARY:VSS - On Linear Time Decidability of Differential Privacy for Prog
- rams with Unbounded Inputs
+SUMMARY:VSS test1 - On Linear Time Decidability of Differential Privacy fo
+ r Programs with Unbounded Inputs
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20221004T190000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20221004T203000
 UID:talk#22@vss.iarcs
