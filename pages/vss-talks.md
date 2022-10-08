@@ -3,7 +3,8 @@
 
 Using the Webcal link is recommended as it will auto update.
 
-Also, subscribing as a "Other" calendar, or a new calendar in Outlook will allow removing/hiding this easily from the view.
+Also, subscribing as an "Other" calendar, or a "New" calendar (instead of adding to the primary calendar)
+in Outlook will allow removing/hiding this easily from the view.
 
 ## webcal link (for subscribing this calendar)
 [webcal://alvg.github.io/pages/vss-talks.ics](webcal://alvg.github.io/pages/vss-talks.ics)
