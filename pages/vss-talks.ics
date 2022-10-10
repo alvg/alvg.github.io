@@ -2,27 +2,13 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//vss calendar generator//fmindia.cmi.ac.in//EN
 BEGIN:VEVENT
-SUMMARY:VSS - On Linear Time Decidability of Differential Privacy for Prog
- rams with Unbounded Inputs
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20221004T190000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20221004T203000
+SUMMARY:VSS - TBA
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20221101T190000
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20221101T203000
 UID:talk#22@vss.iarcs
 DESCRIPTION:Meeting Details: Zoom link\, ID: 891 6409 4870\, Passcode: 082
  194\nhttps://us02web.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUdHU0d
- jQT09\nTitle: On Linear Time Decidability of Differential Privacy for Prog
- rams with Unbounded Inputs\nSpeaker: Mahesh Viswanathan\nAbstract: We intr
- oduce an automata model for describing interesting classes of differential
-  privacy mechanisms/algorithms that include known mechanisms from the lite
- rature. These automata can model algorithms whose inputs can be an unbound
- ed sequence of real-valued query answers. We consider the problem of check
- ing whether there exists a constant $d$ such that the algorithm described 
- by these automata are $d\\epsilon$-differentially private for all positive
-  values of the privacy budget parameter $\\epsilon$. We show that this pro
- blem can be decided in time linear in the automaton's size by identifying 
- a necessary and sufficient condition on the underlying graph of the automa
- ton. This paper's results are the first decidability results known for alg
- orithms with an unbounded number of query answers taking values from the s
- et of reals. This is joint work with Rohit Chadha and Prasad Sistla.
+ jQT09\nTitle: TBA\nSpeaker: TBA\nAbstract: TBA
 LOCATION:https://us02web.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUd
  HU0djQT09
 ORGANIZER:MAILTO:vss.iarcs@gmail.com
