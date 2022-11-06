@@ -2,32 +2,13 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//vss calendar generator//fmindia.cmi.ac.in//EN
 BEGIN:VEVENT
-SUMMARY:VSS - A Game of Pawns
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20221101T190000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20221101T203000
+SUMMARY:VSS - TBA
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20221206T190000
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20221206T203000
 UID:talk#22@vss.iarcs
 DESCRIPTION:Meeting Details: Zoom link\, ID: 891 6409 4870\, Passcode: 082
  194\nhttps://us02web.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUdHU0d
- jQT09\nTitle: A Game of Pawns\nSpeaker: Shibashis Guha\nAbstract: We intro
- duce and study pawn games\; a class of two-player turn-based zero-sum game
- s in which the control of vertices changes dynamically throughout the game
- . Pawn games naturally model ongoing decision-making setting in which reso
- urces are transferable. Each vertex of a pawn game is owned by a pawn. In 
- each round of the game\, the pawns are partitioned between the two players
- . The player who moves the token from a vertex is the player who controls 
- the pawn that owns the vertex. A pawn game is equipped with a mechanism\, 
- which the players apply after each round in order to update the set of paw
- ns that they control. We define several grabbing-based mechanisms in which
-  control of at most one pawn transfers at the end of each round. We study 
- the complexity of solving reachability pawn games\, where we parameterize 
- the problem by the mechanism that is being used and by restrictions on paw
- n ownership of vertices. For the positive news\, even though pawn games ar
- e exponentially-succinct turn-based games\, we identify some natural class
- es that can be solved in PTIME. For the negative news\, we identify some c
- lasses for which the problem is EXPTIME-complete. Our EXPTIME-hardness res
- ults are based on a class of games which we introduce and call Lock-and-Ke
- y games\, and which may be of independent interest. This is a joint work w
- ith Guy Avni and Pranav Ghorpade.
+ jQT09\nTitle: TBA\nSpeaker: Krishna S\nAbstract: TBA
 LOCATION:https://us02web.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUd
  HU0djQT09
 ORGANIZER:MAILTO:vss.iarcs@gmail.com
