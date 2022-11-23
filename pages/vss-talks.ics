@@ -2,13 +2,38 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//vss calendar generator//fmindia.cmi.ac.in//EN
 BEGIN:VEVENT
-SUMMARY:VSS - TBA
+SUMMARY:VSS - Verification of Concurrent Programs under Release Acquire
 DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20221206T190000
 DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20221206T203000
 UID:talk#22@vss.iarcs
 DESCRIPTION:Meeting Details: Zoom link\, ID: 891 6409 4870\, Passcode: 082
  194\nhttps://us02web.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUdHU0d
- jQT09\nTitle: TBA\nSpeaker: Krishna S\nAbstract: TBA
+ jQT09\nTitle: Verification of Concurrent Programs under Release Acquire\nS
+ peaker: Krishna S\nAbstract: This is an overview of some recent work on th
+ e verification of concurrent programs. Traditionally concurrent programs a
+ re interpreted under sequential consistency (SC). Eventhough SC is very in
+ tuitive and easy to use\, modern multiprocessors do not employ SC for perf
+ ormance reasons\, and instead use so called "weak memory models". Some of 
+ the well known weak memory models in vogue among modern multiprcessor arch
+ itectures are Intel x-86\, IBM POWER and ARM. The use of weak memory is al
+ so prevelant in the C11 model\, leading to the release acquire fragment of
+  C11. This talk is on the verification of concurrent programs under the re
+ lease acquire (RA) semantics. The main focus of the talk will be on non pa
+ rameterized programs under RA\, and I will briefly discuss results in the 
+ parameterized setting. In the non parameterized setting\, we show that the
+  reachability problem for RA is undecidable even in the case where the inp
+ ut program is finite-state\, closing a long standing open problem. What wo
+ rks well for this class is under approximate reachability\, in the form of
+  bounded view switching\, an analogue of bounded context switching\, relev
+ ant to RA. In the parameterized setting\, the first observation is that th
+ e semantics of RA can be simplified\, lending to a better complexity for v
+ erification. Further\, safety verification is PSPACE-complete for the case
+  where the distinguished threads are loop-free\, and jumps to NEXPTIME-com
+ plete for the setting where an unrestricted distinguished ego thread inter
+ acts with the environment threads. This talk is based on papers that appea
+ red in PLDI'19 (joint with Parosh Abdulla\, Mohamed Faouzi Atig and Jatin 
+ Arora)\, PODC'22 (joint with Roland Meyer and Adwait Godbole) as well as s
+ ome unpublished work.
 LOCATION:https://us02web.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUd
  HU0djQT09
 ORGANIZER:MAILTO:vss.iarcs@gmail.com
