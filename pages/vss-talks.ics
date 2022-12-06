@@ -2,38 +2,13 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//vss calendar generator//fmindia.cmi.ac.in//EN
 BEGIN:VEVENT
-SUMMARY:VSS - Verification of Concurrent Programs under Release Acquire
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20221206T190000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20221206T203000
+SUMMARY:VSS - TBA
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20230103T190000
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20230103T203000
 UID:talk#22@vss.iarcs
 DESCRIPTION:Meeting Details: Zoom link\, ID: 891 6409 4870\, Passcode: 082
  194\nhttps://us02web.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUdHU0d
- jQT09\nTitle: Verification of Concurrent Programs under Release Acquire\nS
- peaker: Krishna S\nAbstract: This is an overview of some recent work on th
- e verification of concurrent programs. Traditionally concurrent programs a
- re interpreted under sequential consistency (SC). Eventhough SC is very in
- tuitive and easy to use\, modern multiprocessors do not employ SC for perf
- ormance reasons\, and instead use so called "weak memory models". Some of 
- the well known weak memory models in vogue among modern multiprocessor arc
- hitectures are Intel x-86\, IBM POWER and ARM. The use of weak memory is a
- lso prevalent in the C11 model\, leading to the release acquire fragment o
- f C11. This talk is on the verification of concurrent programs under the r
- elease acquire (RA) semantics. The main focus of the talk will be on non p
- arameterized programs under RA\, and I will briefly discuss results in the
-  parameterized setting. In the non parameterized setting\, we show that th
- e reachability problem for RA is undecidable even in the case where the in
- put program is finite-state\, closing a long standing open problem. What w
- orks well for this class is under approximate reachability\, in the form o
- f bounded view switching\, an analogue of bounded context switching\, rele
- vant to RA. In the parameterized setting\, the first observation is that t
- he semantics of RA can be simplified\, lending to a better complexity for 
- verification. Further\, safety verification is PSPACE-complete for the cas
- e where the distinguished threads are loop-free\, and jumps to NEXPTIME-co
- mplete for the setting where an unrestricted distinguished ego thread inte
- racts with the environment threads. This talk is based on papers that appe
- ared in PLDI'19 (joint with Parosh Abdulla\, Mohamed Faouzi Atig and Jatin
-  Arora)\, PODC'22 (joint with Roland Meyer\, Adwait Godbole and Soham Chak
- raborty)\, and Arxiv'21 (with Roland Meyer and Adwait Godbole).
+ jQT09\nTitle: TBA\nSpeaker: TBA\nAbstract: TBA
 LOCATION:https://us02web.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUd
  HU0djQT09
 ORGANIZER:MAILTO:vss.iarcs@gmail.com
