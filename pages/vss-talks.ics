@@ -9,32 +9,24 @@ UID:talk#22@vss.iarcs
 DESCRIPTION:Meeting Details: Zoom link\, ID: 891 6409 4870\, Passcode: 082
  194\nhttps://us02web.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUdHU0d
  jQT09\nTitle: Dynamic Data Race Prediction: Fundamentals and Advances\nSpe
- aker: Umang Mathur\nAbstract: These talks (part I and part II) are an over
- view of some recent work on the verification of concurrent programs. Tradi
- tionally concurrent programs are interpreted under sequential consistency 
- (SC). Eventhough SC is very intuitive and easy to use\, modern multiproces
- sors do not employ SC for performance reasons\, and instead use so called 
- "weak memory models". Some of the well known weak memory models in vogue a
- mong modern multiprocessor architectures are Intel x-86\, IBM POWER and AR
- M. The use of weak memory is also prevalent in the C11 model\, leading to 
- the release acquire fragment of C11. This talk is on the verification of c
- oncurrent programs under the release acquire (RA) semantics. The main focu
- s of the talk will be on non parameterized programs under RA\, and I will 
- briefly discuss results in the parameterized setting. In the non parameter
- ized setting\, we show that the reachability problem for RA is undecidable
-  even in the case where the input program is finite-state\, closing a long
-  standing open problem. What works well for this class is under approximat
- e reachability\, in the form of bounded view switching\, an analogue of bo
- unded context switching\, relevant to RA. In the parameterized setting\, t
- he first observation is that the semantics of RA can be simplified\, lendi
- ng to a better complexity for verification. Further\, safety verification 
- is PSPACE-complete for the case where the distinguished threads are loop-f
- ree\, and jumps to NEXPTIME-complete for the setting where an unrestricted
-  distinguished ego thread interacts with the environment threads. This tal
- k is based on papers that appeared in PLDI'19 (joint with Parosh Abdulla\,
-  Mohamed Faouzi Atig and Jatin Arora)\, PODC'22 (joint with Roland Meyer\,
-  Adwait Godbole and Soham Chakraborty)\, and Arxiv'21 (with Roland Meyer a
- nd Adwait Godbole).
+ aker: Umang Mathur\nAbstract: Concurrent programs are notoriously hard to 
+ write correctly\, as scheduling nondeterminism introduces subtle errors th
+ at are both hard to detect and to reproduce. Data races are arguably the m
+ ost insidious amongst concurrency bugs and extensive research efforts have
+  been dedicated to effectively detect them. A data race occurs when memory
+ -conflicting actions are executed concurrently. Consequently\, considerabl
+ e effort has been made towards developing efficient techniques for race de
+ tection. The preferred approach to detect data races is through dynamic an
+ alysis\, where one observes an execution of a concurrent program and check
+ s for the presence of data races in the execution observed. Traditional dy
+ namic race detectors rely on Lamport's happens-before (HB) partial order\,
+  which can be conservative and are often unable to discover simple data ra
+ ces\, even after executing the program several times. Dynamic data race pr
+ ediction aims to expose data races\, that can be otherwise missed by tradi
+ tional dynamic race detectors (such as those based on HB)\, by inferring d
+ ata races in alternate executions of the underlying program\, without re-e
+ xecuting it. In this talk\, I will talk about the fundamentals of and rece
+ nt algorithmic advances in data race prediction.
 LOCATION:https://us02web.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUd
  HU0djQT09
 ORGANIZER:MAILTO:vss.iarcs@gmail.com
