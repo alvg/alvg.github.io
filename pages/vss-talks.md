@@ -8,7 +8,7 @@ in Outlook will allow removing/hiding this easily from the view.
 
 
 Subscribing to a calendar will automatically pull any updates to the event.
-(dependeng on your calendar application, this may vary from once a couple of hours to about a day).
+(dependeng on your calendar application, this may vary from once a couple of hours to about once a day).
 
 Importing will download the `.ics` file, which if you open, should import into your calendar application.
 
