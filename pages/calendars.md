@@ -17,10 +17,20 @@ If clicking the subscription link doesnt open up your email/calendar application
 Clicking on the https link will download an .ics file, which you can import into your email/calendar application.
 (for one time addition of events to your calendar)
 
+
 ## Subscribe to the calendar. (webcal link).
 [webcal:https://alvg.github.io/pages/vss-talks.ics](webcal://alvg.github.io/pages/vss-talks.ics)
 
+
+
 ## Import the calendar. (https link).
 [https://alvg.github.io/pages/vss-talks.ics](https://alvg.github.io/pages/vss-talks.ics)
+
+
+
+
+| Event Series |  Subscribe (webcal) link  | Import (https) link |
+|--------------|---------------------------|---------------------|
+| VSS Talks    | [webcal:https://alvg.github.io/pages/vss-talks.ics](webcal://alvg.github.io/pages/vss-talks.ics) | [https://alvg.github.io/pages/vss-talks.ics](https://alvg.github.io/pages/vss-talks.ics) |
 
 
