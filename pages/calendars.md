@@ -32,6 +32,4 @@ If "Subscribe1" doesn't work. try "Subscribe2"
 
 | Event Series |  Subscribe (webcal) link  | Import (https) link |
 |--------------|---------------------------|---------------------|
-| [IARCS VSS Talks](https://fmindia.cmi.ac.in/vss/)    | [Subscribe1](webcal://alvg.github.io/pages/vss-talks.ics)
-[Subscribe2](webcal:https://alvg.github.io/pages/vss-talks.ics)
-[Subscribe3](webcals://alvg.github.io/pages/vss-talks.ics) | [Import](https://alvg.github.io/pages/vss-talks.ics) |
+| [IARCS VSS Talks](https://fmindia.cmi.ac.in/vss/) | [Subscribe1](webcal://alvg.github.io/pages/vss-talks.ics) [Subscribe2](webcal:https://alvg.github.io/pages/vss-talks.ics) [Subscribe3](webcals://alvg.github.io/pages/vss-talks.ics) | [Import](https://alvg.github.io/pages/vss-talks.ics) |
