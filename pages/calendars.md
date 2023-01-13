@@ -28,9 +28,8 @@ Clicking on the https link will download an .ics file, which you can import into
 
 
 
+If "Subscribe1" doesn't work. try "Subscribe2"
 
 | Event Series |  Subscribe (webcal) link  | Import (https) link |
 |--------------|---------------------------|---------------------|
-| [IARCS VSS Talks](https://fmindia.cmi.ac.in/vss/)    | [webcal:https://alvg.github.io/pages/vss-talks.ics](webcal://alvg.github.io/pages/vss-talks.ics) | [https://alvg.github.io/pages/vss-talks.ics](https://alvg.github.io/pages/vss-talks.ics) |
-
-
+| [IARCS VSS Talks](https://fmindia.cmi.ac.in/vss/)    | [Subscribe1](webcal:https://alvg.github.io/pages/vss-talks.ics) [Subscribe2](webcals://alvg.github.io/pages/vss-talks.ics) | [Import](https://alvg.github.io/pages/vss-talks.ics) |
