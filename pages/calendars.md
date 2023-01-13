@@ -31,6 +31,6 @@ Clicking on the https link will download an .ics file, which you can import into
 
 | Event Series |  Subscribe (webcal) link  | Import (https) link |
 |--------------|---------------------------|---------------------|
-| VSS Talks    | [webcal:https://alvg.github.io/pages/vss-talks.ics](webcal://alvg.github.io/pages/vss-talks.ics) | [https://alvg.github.io/pages/vss-talks.ics](https://alvg.github.io/pages/vss-talks.ics) |
+| [IARCS VSS Talks](https://fmindia.cmi.ac.in/vss/)    | [webcal:https://alvg.github.io/pages/vss-talks.ics](webcal://alvg.github.io/pages/vss-talks.ics) | [https://alvg.github.io/pages/vss-talks.ics](https://alvg.github.io/pages/vss-talks.ics) |
 
 
