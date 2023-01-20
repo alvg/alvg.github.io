@@ -1,6 +1,7 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//alvg calendar generator//PL related talks//EN
+REFRESH-INTERVAL;VALUE=DURATION:PT4H
 X-WR-CALNAME:VSS Talks
 BEGIN:VEVENT
 SUMMARY:VSS - Verification of Concurrent Programs under Release Acquire --
