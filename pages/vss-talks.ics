@@ -1,32 +1,43 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//vss calendar generator//fmindia.cmi.ac.in//EN
+X-WR-CALNAME:VSS Talks
 BEGIN:VEVENT
-SUMMARY:VSS - Dynamic Data Race Prediction: Fundamentals and Advances
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20230103T190000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20230103T203000
-UID:talk#22@vss.iarcs
+SUMMARY:VSS - Verification of Concurrent Programs under Release Acquire --
+  Part II          (see the video of part I here)
+DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20230207T190000
+DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20230207T203000
+UID:2023-02@vss-iarcs
 DESCRIPTION:Meeting Details: Zoom link\, ID: 891 6409 4870\, Passcode: 082
  194\nhttps://us02web.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUdHU0d
- jQT09\nTitle: Dynamic Data Race Prediction: Fundamentals and Advances\nSpe
- aker: Umang Mathur\nAbstract: Concurrent programs are notoriously hard to 
- write correctly\, as scheduling nondeterminism introduces subtle errors th
- at are both hard to detect and to reproduce. Data races are arguably the m
- ost insidious amongst concurrency bugs and extensive research efforts have
-  been dedicated to effectively detect them. A data race occurs when memory
- -conflicting actions are executed concurrently. Consequently\, considerabl
- e effort has been made towards developing efficient techniques for race de
- tection. The preferred approach to detect data races is through dynamic an
- alysis\, where one observes an execution of a concurrent program and check
- s for the presence of data races in the execution observed. Traditional dy
- namic race detectors rely on Lamport's happens-before (HB) partial order\,
-  which can be conservative and are often unable to discover simple data ra
- ces\, even after executing the program several times. Dynamic data race pr
- ediction aims to expose data races\, that can be otherwise missed by tradi
- tional dynamic race detectors (such as those based on HB)\, by inferring d
- ata races in alternate executions of the underlying program\, without re-e
- xecuting it. In this talk\, I will talk about the fundamentals of and rece
- nt algorithmic advances in data race prediction.
+ jQT09\nTitle: Verification of Concurrent Programs under Release Acquire --
+  Part II          (see the video of part I here)\nSpeaker: Krish
+ na S\nAbstract: These talks (part I and part II) are an overview of some r
+ ecent work on the verification of concurrent programs. Traditionally concu
+ rrent programs are interpreted under sequential consistency (SC). Eventhou
+ gh SC is very intuitive and easy to use\, modern multiprocessors do not em
+ ploy SC for performance reasons\, and instead use so called "weak memory m
+ odels". Some of the well known weak memory models in vogue among modern mu
+ ltiprocessor architectures are Intel x-86\, IBM POWER and ARM. The use of 
+ weak memory is also prevalent in the C11 model\, leading to the release ac
+ quire fragment of C11. This talk is on the verification of concurrent prog
+ rams under the release acquire (RA) semantics. The main focus of the talk 
+ will be on non parameterized programs under RA\, and I will briefly discus
+ s results in the parameterized setting. In the non parameterized setting\,
+  we show that the reachability problem for RA is undecidable even in the c
+ ase where the input program is finite-state\, closing a long standing open
+  problem. What works well for this class is under approximate reachability
+ \, in the form of bounded view switching\, an analogue of bounded context 
+ switching\, relevant to RA. In the parameterized setting\, the first obser
+ vation is that the semantics of RA can be simplified\, lending to a better
+  complexity for verification. Further\, safety verification is PSPACE-comp
+ lete for the case where the distinguished threads are loop-free\, and jump
+ s to NEXPTIME-complete for the setting where an unrestricted distinguished
+  ego thread interacts with the environment threads. This talk is based on 
+ papers that appeared in PLDI'19 (joint with Parosh Abdulla\, Mohamed Faouz
+ i Atig and Jatin Arora)\, PODC'22 (joint with Roland Meyer\, Adwait Godbol
+ e and Soham Chakraborty)\, and Arxiv'21 (with Roland Meyer and Adwait Godb
+ ole).
 LOCATION:https://us02web.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUd
  HU0djQT09
 ORGANIZER:MAILTO:vss.iarcs@gmail.com
