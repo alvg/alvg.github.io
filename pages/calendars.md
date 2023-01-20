@@ -13,7 +13,7 @@ The iCalendar is a Common standard and should work with any Calendar client.
 **How To Subscribe:** 
   Click on the iCalendar link. (May need to click/tap and hold for 2-3 seconds in some cases).
   If it is recognised by your device,
-  your browser should open up your Calendar application showing the calendar Subscription option.
+  your browser should open up your Calendar application showing the calendar subscription option.
   
 **Subscribing manually:** If it was not recognised, you need to subscribe manually, as follows:
   Copy the iCalendar url, then in your Calendar Application, use the option to "Add a Calendar".
