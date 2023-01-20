@@ -3,7 +3,7 @@
 
 Subscribing is recommended instead of Importing.
 Subscribing will auto update the event, in case event timings change.
-There would be a delay (usually no more than a day) your calendar getting updated.
+There would be a delay (usually no more than a day) for your calendar getting updated.
 The delay varies between Calender clients (expect 12H to 24H delay).
 
 the iCalendar is a Common standard and should work with any Calendar client.
