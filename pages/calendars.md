@@ -6,8 +6,8 @@ Subscribing will auto update the event, in case event timings change.
 There would be a delay (usually no more than a day) for your calendar getting updated.
 The delay varies between Calender clients (expect 12H to 24H delay).
 
-the iCalendar is a Common standard and should work with any Calendar client.
-The GoogleCalendar and Outlook365 links are for convenience.
+The iCalendar is a Common standard and should work with any Calendar client.
+The GoogleCalendar and Outlook365 links should make it a bit more convenient to Subscribe.
 
 <!--
 Also, subscribing as an "Other" calendar, or a "New" calendar (instead of adding to the primary calendar)
