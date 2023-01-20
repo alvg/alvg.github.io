@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//vss calendar generator//fmindia.cmi.ac.in//EN
+PRODID:-//alvg calendar generator//PL related talks//EN
 X-WR-CALNAME:VSS Talks
 BEGIN:VEVENT
 SUMMARY:VSS - Verification of Concurrent Programs under Release Acquire --
