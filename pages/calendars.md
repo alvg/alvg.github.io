@@ -21,10 +21,16 @@ Clicking on the https link will download an .ics file, which you can import into
 ## Subscribe to the calendar. (webcal link).
 [webcal:https://alvg.github.io/pages/vss-talks.ics](webcal://alvg.github.io/pages/vss-talks.ics)
 
+[Subscribe using Standard iCalendar](webcal://alvg.github.io/pages/vss-talks.ics)
+
+[Subscribe using GoogleCalendar](https://www.google.com/calendar/render?cid=webcal%3A%2F%2Falvg.github.io%2Fpages%2Fvss-talks.ics&text=VSS%20Talks)
+
+[Subscribe using Outlook365](https://outlook.office.com/owa?path=%2Fcalendar%2Faction%2Fcompose&rru=addsubscription&url=webcal%3A%2F%2Falvg.github.io%2Fpages%2Fvss-talks.ics&name=VSS%20Talks)
 
 
 ## Import the calendar. (https link).
 [https://alvg.github.io/pages/vss-talks.ics](https://alvg.github.io/pages/vss-talks.ics)
+[Import ics file](https://alvg.github.io/pages/vss-talks.ics)
 
 
 
@@ -33,3 +39,9 @@ If "Subscribe1" doesn't work. try "Subscribe2"
 | Event Series |  Subscribe (webcal) link  | Import (https) link |
 |--------------|---------------------------|---------------------|
 | [IARCS VSS Talks](https://fmindia.cmi.ac.in/vss/) | [Subscribe1](webcal://alvg.github.io/pages/vss-talks.ics) [Subscribe2](webcal:https://alvg.github.io/pages/vss-talks.ics) [Subscribe3](webcals://alvg.github.io/pages/vss-talks.ics) | [Import](https://alvg.github.io/pages/vss-talks.ics) |
+
+
+
+
+
+
