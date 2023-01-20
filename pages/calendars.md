@@ -11,7 +11,7 @@ The delay varies between Calender clients (expect a 12h to 24h delay).
 The iCalendar is a Common standard and should work with any Calendar client.
 
 **How To Subscribe:** 
-  Click on the iCalendar link. (May need to click and hold for 2-3 seconds in some cases).
+  Click on the iCalendar link. (May need to click/tap and hold for 2-3 seconds in some cases).
   If it is recognised by your device,
   your browser should open up your Calendar application showing the calendar Subscription option.
   
