@@ -7,7 +7,17 @@ There would be a delay (usually no more than a day) for your calendar getting up
 The delay varies between Calender clients (expect 12H to 24H delay).
 
 The iCalendar is a Common standard and should work with any Calendar client.
-The GoogleCalendar and Outlook365 links should make it a bit more convenient to Subscribe.
+
+**How To Subscribe:** 
+  Click on the iCalendar link. (May need to click and hold for 2-3 seconds in some cases).
+  If it is recognised by your device,
+  your browser should open up your Calendar application showing the calendar Subscription option.
+  
+**Subscribing manually:** If it was not recognised, you need to subscribe manually, as follows:
+  Copy the iCalendar url, then in your Calendar Application, use the option to "Add a Calendar".
+  Choose the "Web URL" option or "Subscribe" or "Internet calendar" option if there is one. Paste the iCalendar url. Done.
+
+The GoogleCalendar and Outlook365 links should make it a bit more convenient to Subscribe for those clients.
 
 <!--
 Also, subscribing as an "Other" calendar, or a "New" calendar (instead of adding to the primary calendar)
