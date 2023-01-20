@@ -7,8 +7,8 @@ BEGIN:VEVENT
 SUMMARY:SERI - Titles:  (1) Leveraging Program Structures & Learning-based
   Techniques to Improve Type-4 Code Clone Detection Techniques  (2) BiRD: R
  ace Detection in Software Binaries under Relaxed Memory Models.
-DTSTART;TZID=Asia/Calcutta;VALUE=DATE-TIME:20230117T190000
-DTEND;TZID=Asia/Calcutta;VALUE=DATE-TIME:20230117T200000
+DTSTART;TZID=Asia/Calcutta:20230117T190000
+DTEND;TZID=Asia/Calcutta:20230117T200000
 UID:2023-01@seri
 DESCRIPTION:Registration: Use this link to register for the talk.  Registr
  ation is required to attend the talk\, which takes only 1 minute. Register
