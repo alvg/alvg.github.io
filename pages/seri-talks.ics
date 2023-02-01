@@ -4,61 +4,73 @@ PRODID:-//alvg calendar generator//PL related talks//EN
 REFRESH-INTERVAL;VALUE=DURATION:PT4H
 X-WR-CALNAME:SERI Talks
 BEGIN:VEVENT
-SUMMARY:SERI - Titles:  (1) Leveraging Program Structures & Learning-based
-  Techniques to Improve Type-4 Code Clone Detection Techniques  (2) BiRD: R
- ace Detection in Software Binaries under Relaxed Memory Models.
-DTSTART;TZID=Asia/Calcutta:20230117T190000
-DTEND;TZID=Asia/Calcutta:20230117T200000
-UID:2023-01@seri
-DESCRIPTION:Registration: Use this link to register for the talk.  Registr
- ation is required to attend the talk\, which takes only 1 minute. Register
-  any time before the talk\, but register early to ensure your spot! After 
- registering\, you will receive a confirmation email containing information
-  about joining the meeting. \n\n Webpage: https://sites.google.com/view/se
- ri2022-23/upcoming-talks\n\n\n\n Reg-Link: https://us06web.zoom.us/meeting
- /register/tZ0td--upz0oHdLe8pKRAAAksYVlWl1LoS-e\n\n\nTitles:  (1) Leveragin
- g Program Structures & Learning-based Techniques to Improve Type-4 Code Cl
- one Detection Techniques  (2) BiRD: Race Detection in Software Binaries un
- der Relaxed Memory Models.\nSpeakers: (1) Nikita Mehrotra (2) Ridhi Jain\n
- Abstracts (1) Code clones are duplicate code fragments that share (nearly)
-  similar syntax or semantics. Code clone detection plays an important role
-  in software maintenance\, code refactoring\, and reuse. A substantial amo
- unt of research has been conducted in the past to detect clones. A majorit
- y of these approaches use lexical and syntactic information to detect clon
- es. However\, only a few of them target semantic clones. Recently\, motiva
- ted by the success of deep learning models in other fields\, including nat
- ural language processing and computer vision\, researchers have attempted 
- to adopt deep learning techniques to detect code clones. These approaches 
- use lexical information (tokens) and(or) syntactic structures like abstrac
- t syntax trees (ASTs) to detect code clones. However\, they do not make su
- fficient use of the available structural and semantic information\, hence 
- limiting their capabilities. This work addresses the problem of semantic c
- ode clone detection using program dependency graphs and graph neural netwo
- rks\, leveraging the program structured syntactic and semantic information
- . This talk is based on the following accepted paper: Modelling Functional
-  Similarity in Source Code with Graph-based Siamese Neural Networks Venue:
-  TSE Journal First\, 2021.(2) Instruction reordering and interleavings in 
- program execution under relaxed memory semantics result in non-intuitive b
- ehaviors\, making it difficult to provide assurances about program correct
- ness. Several static analyses approaches exist\, but studies have shown th
- at up to 90% of the concurrency bugs reported by state-of-the-art static a
- nalyzers are false alarms. As a result\, filtering false alarms and detect
- ing real concurrency bugs is a challenging problem. Unsurprisingly\, this 
- problem has attracted the interest of the research community over the past
-  few decades. Nonetheless\, many of the existing techniques rely on analyz
- ing source code and rarely consider theeffects introduced by compilers\, a
- nd assume a sequentially consistent memory model. In a practical setting\,
-  however\, developers often do not have access to the source code\, and ev
- en commodity architectures such as x86 and ARM are not sequentially consis
- tent. In this work\, we present BiRD\, a prototype tool\, to dynamically d
- etect harmful data races in x86 binaries under relaxed memory models\, TSO
-  and PSO. BiRD employs {\\em source-DPOR} to explore all distinct feasible
-  interleavings for a multithreaded application. Our evaluation of BiRD on 
- 42 publicly available benchmarks and its comparison with the state-of-the-
- art tools indicate BiRD's potential in effectively detecting data races in
-  software binaries.
-LOCATION:https://us06web.zoom.us/meeting/register/tZ0td--upz0oHdLe8pKRAAAk
- sYVlWl1LoS-e
+SUMMARY:SERI - Titles:  (1) Data-lite Machine Learning\, by Shrikanth Nar
+ ayanaswamy Chandrasekaran  (2) A Semi-automated Approach to Generate an 
+ Adaptive Quality Attribute Relationship Matrix\, by Unnati Shah
+DTSTART;TZID=Asia/Calcutta:20230221T190000
+DTEND;TZID=Asia/Calcutta:20230221T200000
+UID:2023-02@seri
+DESCRIPTION:Registration: Use this link to register for the talk.  Regist
+ ration is required to attend the talk\, which takes only 1 minute. Registe
+ r any time before the talk\, but register early to ensure your spot! After
+  registering\, you will receive a confirmation email containing informatio
+ n about joining the meeting. \n\n Webpage: https://sites.google.com/view/
+ seri2022-23/upcoming-talks\n\n\n\n Reg-Link: https://us06web.zoom.us/meeti
+ ng/register/tZUkf-iqrDIvEtdaK05gcFUYilwSbLegnUX8\n\n\nTitles:  (1) Data-l
+ ite Machine Learning\, by Shrikanth Narayanaswamy Chandrasekaran  (2) A 
+ Semi-automated Approach to Generate an Adaptive Quality Attribute Relation
+ ship Matrix\, by Unnati Shah\n  (1) Shrikanth is a Ph.D. (Computer Scien
+ ce) graduate from NC State (Advised by Dr. Tim Menzies) with ten years of 
+ industry experience. He has a research interest in Software Engineering (s
+ oftware defect prediction) and Machine Learning. He is employed full-time 
+ with Oracle America\, Inc to build tools to improve developer experiences 
+ for next-generation cloud infrastructure. Previously\, he was a Technology
+  R&D Specialist at Accenture Labs\, Software Engineering group India. Befo
+ re that\, he was a Software Engineer and Senior Systems Engineer at ABB In
+ dia Ltd and Infosys Ltd. In the last two summers\, he interned (research) 
+ at Fujitsu Laboratories of America and Microsoft. He is an engineering gr
+ aduate with a track record of innovations (3 granted patents) and publishe
+ d papers at premier avenues. Website: https://snaraya7.github.io/ (2)  
+ Unnati Shah is an assistant professor in the department of computer scienc
+ e at Utica University\, New York\, USA.  She completed her doctorate from
+  NIT\, Surat. Her research focuses resolving ambiguities and specification
+  of Non-functional requirements.\nAbstracts (1) Software Engineering prac
+ titioners and researchers often suffer from the data-hungry presumption th
+ at more data is inherently better. A recent study identified a startling t
+ rend among 240 open-source GitHub projects with 1.2 million commits (chang
+ es). We find that the information (software defects) in those projects ""c
+ lump"" towards the earliest parts of the project. Therefore\, a machine le
+ arning model built only from the first 150 commits once predicted post-rel
+ ease defects for the rest of the project life-cycle.  Such a data-lite pr
+ ocess performed on par or better than the state-of-the-art alternatives.He
+ nce\, if data has the most information in some small region\, perhaps a mo
+ del learned from that region would suffice for the rest of the project. Us
+ ing this data-lite approach\, we can build machine learning models quickly
+  and importantly early in the project life cycle. ICSE 2021 - https://arx
+ iv.org/pdf/2011.13071.pdf. Early Life Cycle Software Defect Prediction. Wh
+ y? How?(2) [Context/Motivation] A critical success factor in Requirements 
+ Engineering (RE) involves recognizing conflicts in Quality Requirements (Q
+ Rs). Nowadays\, Quality Attributes Relationship Matrix (QARM) is utilized 
+ to identify the conflicts in QRs. The static QARM represents how one Quali
+ ty Attribute (QA) undermines or supports to achieve other QAs. [Question/
+ Problem] However\, emerging technology discovers new QAs. Requirements ana
+ lysts need to invest significant time and non-trivial human effort to acqu
+ ire knowledge for the newly discovered QAs and influence among them. This 
+ process involves searching and analyzing a large set of quality documents 
+ from literature and industries. In addition\, the use of static QARMs\, wi
+ thout knowing the purpose of the QRs in the system may lead to false confl
+ ict identification. Rather than taking all QAs\, domain-specific QAs are o
+ f great concern for the system being developed. [Principal ideas/results]
+  In this paper\, we propose an approach which is aimed to build an adaptiv
+ e QARM semi-automatically. We empirically evaluate the approach and report
+  an analysis of the generated QARM. We achieve 85.67% recall\, 59.07% prec
+ ision and 69.14% F-measure to acquire knowledge for QAs. [Contributions] 
+ We provide an algorithm to acquire knowledge for domain-specific QAs and c
+ onstruct an adaptive QARM from available unconstrained natural language do
+ cuments and web search engines.Publication Venue: REFSQ 2020: Requirements
+  Engineering: Foundation for Software Quality\, pp 239–256
+LOCATION:https://us06web.zoom.us/meeting/register/tZUkf-iqrDIvEtdaK05gcFUY
+ ilwSbLegnUX8
 ORGANIZER:MAILTO:seri
 PRIORITY:5
 END:VEVENT
