@@ -10,35 +10,35 @@ DTSTART;TZID=Asia/Calcutta:20230207T190000
 DTEND;TZID=Asia/Calcutta:20230207T203000
 UID:2023-02@vss-iarcs
 DESCRIPTION:Meeting Details: Zoom link\, ID: 891 6409 4870\, Passcode: 082
- 194\n\n Talk-Webpage: https://fmindia.cmi.ac.in/vss/\n\n\nhttps://us02web.
- zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUdHU0djQT09\nTitle: Verific
- ation of Concurrent Programs under Release Acquire -- Part II      
-     (see the video of part I here)\nSpeaker: Krishna S\nAbstract: This
-  talk (part I and part II) is an overview of some recent work on the verif
- ication of concurrent programs. Traditionally concurrent programs are inte
- rpreted under sequential consistency (SC). Eventhough SC is very intuitive
-  and easy to use\, modern multiprocessors do not employ SC for performance
-  reasons\, and instead use so called "weak memory models". Some of the wel
- l known weak memory models in vogue among modern multiprocessor architectu
- res are Intel x-86\, IBM POWER and ARM. The use of weak memory is also pre
- valent in the C11 model\, leading to the release acquire fragment of C11. 
- This talk is on the verification of concurrent programs under the release 
- acquire (RA) semantics. The main focus of the talk will be on non paramete
- rized programs under RA\, and I will briefly discuss results in the parame
- terized setting. In the non parameterized setting\, we show that the reach
- ability problem for RA is undecidable even in the case where the input pro
- gram is finite-state\, closing a long standing open problem. What works we
- ll for this class is under approximate reachability\, in the form of bound
- ed view switching\, an analogue of bounded context switching\, relevant to
-  RA. In the parameterized setting\, the first observation is that the sema
- ntics of RA can be simplified\, lending to a better complexity for verific
- ation. Further\, safety verification is PSPACE-complete for the case where
-  the distinguished threads are loop-free\, and jumps to NEXPTIME-complete 
- for the setting where an unrestricted distinguished ego thread interacts w
- ith the environment threads. This talk is based on papers that appeared in
-  PLDI'19 (joint with Parosh Abdulla\, Mohamed Faouzi Atig and Jatin Arora)
- \, PODC'22 (joint with Roland Meyer\, Adwait Godbole and Soham Chakraborty
- )\, and Arxiv'21 (with Roland Meyer and Adwait Godbole).
+ 194\n\n Talk-Webpage: https://fmindia.cmi.ac.in/vss/\n\n\n\nhttps://us02we
+ b.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUdHU0djQT09\n\nTitle: Ver
+ ification of Concurrent Programs under Release Acquire -- Part II    
+       (see the video of part I here)\n\nSpeaker: Krishna S\n\nAbstra
+ ct: This talk (part I and part II) is an overview of some recent work on t
+ he verification of concurrent programs. Traditionally concurrent programs 
+ are interpreted under sequential consistency (SC). Eventhough SC is very i
+ ntuitive and easy to use\, modern multiprocessors do not employ SC for per
+ formance reasons\, and instead use so called "weak memory models". Some of
+  the well known weak memory models in vogue among modern multiprocessor ar
+ chitectures are Intel x-86\, IBM POWER and ARM. The use of weak memory is 
+ also prevalent in the C11 model\, leading to the release acquire fragment 
+ of C11. This talk is on the verification of concurrent programs under the 
+ release acquire (RA) semantics. The main focus of the talk will be on non 
+ parameterized programs under RA\, and I will briefly discuss results in th
+ e parameterized setting. In the non parameterized setting\, we show that t
+ he reachability problem for RA is undecidable even in the case where the i
+ nput program is finite-state\, closing a long standing open problem. What 
+ works well for this class is under approximate reachability\, in the form 
+ of bounded view switching\, an analogue of bounded context switching\, rel
+ evant to RA. In the parameterized setting\, the first observation is that 
+ the semantics of RA can be simplified\, lending to a better complexity for
+  verification. Further\, safety verification is PSPACE-complete for the ca
+ se where the distinguished threads are loop-free\, and jumps to NEXPTIME-c
+ omplete for the setting where an unrestricted distinguished ego thread int
+ eracts with the environment threads. This talk is based on papers that app
+ eared in PLDI'19 (joint with Parosh Abdulla\, Mohamed Faouzi Atig and Jati
+ n Arora)\, PODC'22 (joint with Roland Meyer\, Adwait Godbole and Soham Cha
+ kraborty)\, and Arxiv'21 (with Roland Meyer and Adwait Godbole).
 LOCATION:https://us02web.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUd
  HU0djQT09
 ORGANIZER:MAILTO:vss

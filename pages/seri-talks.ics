@@ -4,57 +4,57 @@ PRODID:-//alvg calendar generator//PL related talks//EN
 REFRESH-INTERVAL;VALUE=DURATION:PT4H
 X-WR-CALNAME:SERI Talks
 BEGIN:VEVENT
-SUMMARY:SERI - Titles:  (1) Data-lite Machine Learning\, by Shrikanth Nar
- ayanaswamy Chandrasekaran  (2) A Semi-automated Approach to Generate an 
- Adaptive Quality Attribute Relationship Matrix\, by Unnati Shah
+SUMMARY:SERI - Titles:  (1) Data-lite Machine Learning\, by Shrikanth Nara
+ yanaswamy Chandrasekaran  (2) A Semi-automated Approach to Generate an Ada
+ ptive Quality Attribute Relationship Matrix\, by Unnati Shah
 DTSTART;TZID=Asia/Calcutta:20230221T190000
 DTEND;TZID=Asia/Calcutta:20230221T200000
 UID:2023-02@seri
-DESCRIPTION:Registration: Use this link to register for the talk.  Regist
- ration is required to attend the talk\, which takes only 1 minute. Registe
- r any time before the talk\, but register early to ensure your spot! After
-  registering\, you will receive a confirmation email containing informatio
- n about joining the meeting. \n\n Webpage: https://sites.google.com/view/
- seri2022-23/upcoming-talks\n\n\n\n Reg-Link: https://us06web.zoom.us/meeti
- ng/register/tZUkf-iqrDIvEtdaK05gcFUYilwSbLegnUX8\n\n\nTitles:  (1) Data-l
- ite Machine Learning\, by Shrikanth Narayanaswamy Chandrasekaran  (2) A 
- Semi-automated Approach to Generate an Adaptive Quality Attribute Relation
- ship Matrix\, by Unnati Shah\n(1) Shrikanth  (2) Unnati Shah\nAbstracts (
- 1) Software Engineering practitioners and researchers often suffer from th
- e data-hungry presumption that more data is inherently better. A recent st
- udy identified a startling trend among 240 open-source GitHub projects wit
- h 1.2 million commits (changes). We find that the information (software de
- fects) in those projects ""clump"" towards the earliest parts of the proje
- ct. Therefore\, a machine learning model built only from the first 150 com
- mits once predicted post-release defects for the rest of the project life-
- cycle.  Such a data-lite process performed on par or better than the stat
- e-of-the-art alternatives.Hence\, if data has the most information in some
-  small region\, perhaps a model learned from that region would suffice for
-  the rest of the project. Using this data-lite approach\, we can build mac
- hine learning models quickly and importantly early in the project life cyc
- le. ICSE 2021 - https://arxiv.org/pdf/2011.13071.pdf. Early Life Cycle So
- ftware Defect Prediction. Why? How?(2) [Context/Motivation] A critical suc
- cess factor in Requirements Engineering (RE) involves recognizing conflict
- s in Quality Requirements (QRs). Nowadays\, Quality Attributes Relationshi
- p Matrix (QARM) is utilized to identify the conflicts in QRs. The static Q
- ARM represents how one Quality Attribute (QA) undermines or supports to ac
- hieve other QAs. [Question/Problem] However\, emerging technology discove
- rs new QAs. Requirements analysts need to invest significant time and non-
- trivial human effort to acquire knowledge for the newly discovered QAs and
-  influence among them. This process involves searching and analyzing a lar
- ge set of quality documents from literature and industries. In addition\, 
- the use of static QARMs\, without knowing the purpose of the QRs in the sy
- stem may lead to false conflict identification. Rather than taking all QAs
- \, domain-specific QAs are of great concern for the system being developed
- . [Principal ideas/results] In this paper\, we propose an approach which 
- is aimed to build an adaptive QARM semi-automatically. We empirically eval
- uate the approach and report an analysis of the generated QARM. We achieve
-  85.67% recall\, 59.07% precision and 69.14% F-measure to acquire knowledg
- e for QAs. [Contributions] We provide an algorithm to acquire knowledge f
- or domain-specific QAs and construct an adaptive QARM from available uncon
- strained natural language documents and web search engines.Publication Ven
- ue: REFSQ 2020: Requirements Engineering: Foundation for Software Quality\
- , pp 239–256
+DESCRIPTION:Registration: Use this link to register for the talk.  Registr
+ ation is required to attend the talk\, which takes only 1 minute. Register
+  any time before the talk\, but register early to ensure your spot! After 
+ registering\, you will receive a confirmation email containing information
+  about joining the meeting. \n\n Webpage: https://sites.google.com/view/se
+ ri2022-23/upcoming-talks\n\n\n\n Reg-Link: https://us06web.zoom.us/meeting
+ /register/tZUkf-iqrDIvEtdaK05gcFUYilwSbLegnUX8\n\n\n\nTitles:  (1) Data-li
+ te Machine Learning\, by Shrikanth Narayanaswamy Chandrasekaran  (2) A Sem
+ i-automated Approach to Generate an Adaptive Quality Attribute Relationshi
+ p Matrix\, by Unnati Shah\n\nSpeakers: (1) Shrikanth  (2) Unnati Shah\n\nA
+ bstracts (1) Software Engineering practitioners and researchers often suff
+ er from the data-hungry presumption that more data is inherently better. A
+  recent study identified a startling trend among 240 open-source GitHub pr
+ ojects with 1.2 million commits (changes). We find that the information (s
+ oftware defects) in those projects ""clump"" towards the earliest parts of
+  the project. Therefore\, a machine learning model built only from the fir
+ st 150 commits once predicted post-release defects for the rest of the pro
+ ject life-cycle.  Such a data-lite process performed on par or better than
+  the state-of-the-art alternatives.Hence\, if data has the most informatio
+ n in some small region\, perhaps a model learned from that region would su
+ ffice for the rest of the project. Using this data-lite approach\, we can 
+ build machine learning models quickly and importantly early in the project
+  life cycle. ICSE 2021 - https://arxiv.org/pdf/2011.13071.pdf. Early Life 
+ Cycle Software Defect Prediction. Why? How?(2) [Context/Motivation] A crit
+ ical success factor in Requirements Engineering (RE) involves recognizing 
+ conflicts in Quality Requirements (QRs). Nowadays\, Quality Attributes Rel
+ ationship Matrix (QARM) is utilized to identify the conflicts in QRs. The 
+ static QARM represents how one Quality Attribute (QA) undermines or suppor
+ ts to achieve other QAs. [Question/Problem] However\, emerging technology 
+ discovers new QAs. Requirements analysts need to invest significant time a
+ nd non-trivial human effort to acquire knowledge for the newly discovered 
+ QAs and influence among them. This process involves searching and analyzin
+ g a large set of quality documents from literature and industries. In addi
+ tion\, the use of static QARMs\, without knowing the purpose of the QRs in
+  the system may lead to false conflict identification. Rather than taking 
+ all QAs\, domain-specific QAs are of great concern for the system being de
+ veloped. [Principal ideas/results] In this paper\, we propose an approach 
+ which is aimed to build an adaptive QARM semi-automatically. We empiricall
+ y evaluate the approach and report an analysis of the generated QARM. We a
+ chieve 85.67% recall\, 59.07% precision and 69.14% F-measure to acquire kn
+ owledge for QAs. [Contributions] We provide an algorithm to acquire knowle
+ dge for domain-specific QAs and construct an adaptive QARM from available 
+ unconstrained natural language documents and web search engines.Publicatio
+ n Venue: REFSQ 2020: Requirements Engineering: Foundation for Software Qua
+ lity\, pp 239–256
 LOCATION:https://us06web.zoom.us/meeting/register/tZUkf-iqrDIvEtdaK05gcFUY
  ilwSbLegnUX8
 ORGANIZER:MAILTO:seri
