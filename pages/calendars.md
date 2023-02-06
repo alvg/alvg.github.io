@@ -60,11 +60,22 @@ Clicking on the https link will download an .ics file, which you can import into
 If "Subscribe1" doesn't work. try "Subscribe2"
 -->
 
+<!--
+
 | Event Series |  Subscribe (webcal) link  | Import link | Misc links |
 |--------------|---------------------------|---------------------|----------------------|
 | [IARCS VSS Talks](https://fmindia.cmi.ac.in/vss/) | [icalendar](webcal://alvg.github.io/pages/vss-talks.ics) [GoogleCalendar](https://www.google.com/calendar/render?cid=webcal%3A%2F%2Falvg.github.io%2Fpages%2Fvss-talks.ics&text=VSS%20Talks) [Outlook365](https://outlook.office.com/owa?path=%2Fcalendar%2Faction%2Fcompose&rru=addsubscription&url=webcal%3A%2F%2Falvg.github.io%2Fpages%2Fvss-talks.ics&name=VSS%20Talks) | [Import](https://alvg.github.io/pages/vss-talks.ics) | [Subscribe1](webcal://alvg.github.io/pages/vss-talks.ics) [Subscribe2](webcal:https://alvg.github.io/pages/vss-talks.ics) [Subscribe3](webcals://alvg.github.io/pages/vss-talks.ics) |
 | [SERI Talks](https://sites.google.com/view/seri2022-23/upcoming-talks) | [icalendar](webcal://alvg.github.io/pages/seri-talks.ics) [GoogleCalendar](https://www.google.com/calendar/render?cid=webcal%3A%2F%2Falvg.github.io%2Fpages%2Fseri-talks.ics&text=SERI%20Talks) [Outlook365](https://outlook.office.com/owa?path=%2Fcalendar%2Faction%2Fcompose&rru=addsubscription&url=webcal%3A%2F%2Falvg.github.io%2Fpages%2Fseri-talks.ics&name=SERI%20Talks) | [Import](https://alvg.github.io/pages/seri-talks.ics) | [Subscribe1](webcal://alvg.github.io/pages/seri-talks.ics) [Subscribe2](webcal:https://alvg.github.io/pages/seri-talks.ics) [Subscribe3](webcals://alvg.github.io/pages/seri-talks.ics) |
+-->
 
 
 
+| Event Series |  Subscribe (webcal) link  | Import link | Misc links |
+|--------------|---------------------------|---------------------|----------------------|
+| [IARCS VSS Talks](https://fmindia.cmi.ac.in/vss/) | [![icalendar]](webcal://alvg.github.io/pages/vss-talks.ics) [![googlecalendar]](https://www.google.com/calendar/render?cid=webcal%3A%2F%2Falvg.github.io%2Fpages%2Fvss-talks.ics&text=VSS%20Talks) [![outlook365]](https://outlook.office.com/owa?path=%2Fcalendar%2Faction%2Fcompose&rru=addsubscription&url=webcal%3A%2F%2Falvg.github.io%2Fpages%2Fvss-talks.ics&name=VSS%20Talks) | [Import](https://alvg.github.io/pages/vss-talks.ics) | [Subscribe1](webcal://alvg.github.io/pages/vss-talks.ics) [Subscribe2](webcal:https://alvg.github.io/pages/vss-talks.ics) [Subscribe3](webcals://alvg.github.io/pages/vss-talks.ics) |
+| [SERI Talks](https://sites.google.com/view/seri2022-23/upcoming-talks) | [![icalendar]](webcal://alvg.github.io/pages/seri-talks.ics) [![googlecalendar]](https://www.google.com/calendar/render?cid=webcal%3A%2F%2Falvg.github.io%2Fpages%2Fseri-talks.ics&text=SERI%20Talks) [![outlook365]](https://outlook.office.com/owa?path=%2Fcalendar%2Faction%2Fcompose&rru=addsubscription&url=webcal%3A%2F%2Falvg.github.io%2Fpages%2Fseri-talks.ics&name=SERI%20Talks) | [Import](https://alvg.github.io/pages/seri-talks.ics) | [Subscribe1](webcal://alvg.github.io/pages/seri-talks.ics) [Subscribe2](webcal:https://alvg.github.io/pages/seri-talks.ics) [Subscribe3](webcals://alvg.github.io/pages/seri-talks.ics) |
 
+
+[icalendar]: https://img.shields.io/badge/Internet_Calendar-fc4e03?style=for-the-badge
+[googlecalendar]: https://img.shields.io/badge/Google_Calendar-0dd113?style=for-the-badge
+[outlook365]: https://img.shields.io/badge/Outlook_Calendar-037ffc?style=for-the-badge
