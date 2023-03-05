@@ -4,25 +4,25 @@ PRODID:-//alvg calendar generator//PL related talks//EN
 REFRESH-INTERVAL;VALUE=DURATION:PT4H
 X-WR-CALNAME:SERI Talks
 BEGIN:VEVENT
-SUMMARY:SERI - (1) Data-lite Machine Learning\, by Shrikanth Narayanaswamy
-  Chandrasekaran  (2) A Semi-automated Approach to Generate an Adaptive Qua
- lity Attribute Relationship Matrix\, by Unnati Shah
-DTSTART;TZID=Asia/Calcutta:20230221T190000
-DTEND;TZID=Asia/Calcutta:20230221T200000
-UID:2023-02@seri
+SUMMARY:SERI - (1) Formal verification of an indigenous real-time operatin
+ g system\, by Meenakshi D'Souza(2) Exploring Alias Analysis Based Optimiza
+ tions Missed by the Compiler\, by Khushboo Chitre
+DTSTART;TZID=Asia/Calcutta:20230321T190000
+DTEND;TZID=Asia/Calcutta:20230321T200000
+UID:2023-03@seri
 DESCRIPTION:NOTE: Registration is required to attend the talk\, which take
  s only 1 minute\n\n Webpage: https://sites.google.com/view/seri2022-23/upc
- oming-talks\n\n Reg-Link: https://us06web.zoom.us/meeting/register/tZUkf-i
- qrDIvEtdaK05gcFUYilwSbLegnUX8\n\n(1) Data-lite Machine Learning\, by Shrik
- anth Narayanaswamy Chandrasekaran  (2) A Semi-automated Approach to Genera
- te an Adaptive Quality Attribute Relationship Matrix\, by Unnati Shah\n\nS
- peakers: (1) Shrikanth  (2) Unnati Shah\n\n\n\nRegistration: Use this link
-  to register for the talk.  Registration is required to attend the talk\, 
- which takes only 1 minute. Register any time before the talk\, but registe
- r early to ensure your spot! After registering\, you will receive a confir
- mation email containing information about joining the meeting. 
-LOCATION:https://us06web.zoom.us/meeting/register/tZUkf-iqrDIvEtdaK05gcFUY
- ilwSbLegnUX8
+ oming-talks\n\n Reg-Link: https://us06web.zoom.us/meeting/register/tZAvc-y
+ rrz4vEtK7N_pu1r-GOruXPWxHPzGK\n\n(1) Formal verification of an indigenous 
+ real-time operating system\, by Meenakshi D'Souza(2) Exploring Alias Analy
+ sis Based Optimizations Missed by the Compiler\, by Khushboo Chitre\n\nSpe
+ akers: (1) Meenakshi  (2) Khushboo\n\n\n\nRegistration: Use this link to r
+ egister for the talk.  Registration is required to attend the talk\, which
+  takes only 1 minute. Register any time before the talk\, but register ear
+ ly to ensure your spot! After registering\, you will receive a confirmatio
+ n email containing information about joining the meeting. 
+LOCATION:https://us06web.zoom.us/meeting/register/tZAvc-yrrz4vEtK7N_pu1r-G
+ OruXPWxHPzGK
 ORGANIZER:MAILTO:seri
 PRIORITY:5
 END:VEVENT
