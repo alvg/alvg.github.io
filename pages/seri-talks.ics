@@ -4,25 +4,57 @@ PRODID:-//alvg calendar generator//PL related talks//EN
 REFRESH-INTERVAL;VALUE=DURATION:PT4H
 X-WR-CALNAME:SERI Talks
 BEGIN:VEVENT
-SUMMARY:SERI - (1) Formal verification of an indigenous real-time operatin
- g system\, by Meenakshi D'Souza(2) Exploring Alias Analysis Based Optimiza
- tions Missed by the Compiler\, by Khushboo Chitre
-DTSTART;TZID=Asia/Calcutta:20230321T190000
-DTEND;TZID=Asia/Calcutta:20230321T200000
-UID:2023-03@seri
+SUMMARY:SERI - (1)  Automated Black-box API Testing\, by Diptikalyan Saha(
+ 2)  Symbolic Execution in Testing Industrial Applications\, by Sujit Kumar
+  Chakrabarti
+DTSTART;TZID=Asia/Calcutta:20230418T190000
+DTEND;TZID=Asia/Calcutta:20230418T200000
+UID:2023-04@seri
 DESCRIPTION:NOTE: Registration is required to attend the talk\, which take
  s only 1 minute\n\n Webpage: https://sites.google.com/view/seri2022-23/upc
- oming-talks\n\n Reg-Link: https://us06web.zoom.us/meeting/register/tZAvc-y
- rrz4vEtK7N_pu1r-GOruXPWxHPzGK\n\n(1) Formal verification of an indigenous 
- real-time operating system\, by Meenakshi D'Souza(2) Exploring Alias Analy
- sis Based Optimizations Missed by the Compiler\, by Khushboo Chitre\n\nSpe
- akers: (1) Meenakshi  (2) Khushboo\n\n\n\nRegistration: Use this link to r
- egister for the talk.  Registration is required to attend the talk\, which
-  takes only 1 minute. Register any time before the talk\, but register ear
- ly to ensure your spot! After registering\, you will receive a confirmatio
- n email containing information about joining the meeting. 
-LOCATION:https://us06web.zoom.us/meeting/register/tZAvc-yrrz4vEtK7N_pu1r-G
- OruXPWxHPzGK
+ oming-talks\n\n Reg-Link: https://us06web.zoom.us/meeting/register/tZEqdeq
+ qrzMpHdzH0yqL03J4VLUpSMPeDxAp\n\n(1)  Automated Black-box API Testing\, by
+  Diptikalyan Saha(2)  Symbolic Execution in Testing Industrial Application
+ s\, by Sujit Kumar Chakrabarti\n\nSpeakers: (1) Dr. Diptikalyan Saha is Sr
+ . Technical Staff Member at IBM Research Lab in India. His current researc
+ h focuses on AI Testing where he is trying to ensure Trustworthy AI by dev
+ eloping novel techniques to test\, debug and repair AI models and applying
+  AI techniques to improve traditional software testing. Dipti holds a Ph.D
+ . in Computer Science from the State University of New York at Stony Brook
+ . He\n\nAbstracts (1) The proliferation of web-based applications has incr
+ eased the need for the testing of web services. With the adoption of web s
+ ervice standards such as REST (Representational State Transfer) and SOAP (
+ Simple Object Access Protocol)\, it has become easier for developers to bu
+ ild and consume APIs. The testing of REST APIs has been a topic of interes
+ t in the recent past. However\, these studies mostly focus on the testing 
+ of REST APIs with the aim of finding bugs in the system under test. Functi
+ onal testing involves testing the functional behavior of the system under 
+ test. In this work\, we aim to automatically generate realistic functional
+  test cases which can even be used for regression. Functional testing seek
+ s to cover valid functional scenarios\, the notion we concretely define an
+ d present an algorithm to generate nominal/valid test cases following a fu
+ nctional sequence of operations. We used a resource-based grouping strateg
+ y\, a novel producer-consumer dependency inference algorithm\, and a langu
+ age model-based sequencing algorithm to generate an operational sequence s
+ uitable for functional test cases.(2)  We discuss our recent work on using
+  symbolic execution for generating test inputs for industrial embedded sys
+ tems. We consider a specific class of applications we term as acyclic core
+  applications\, a control flow structure that represents a fairly large nu
+ mber of embedded applications. Our goal is not to achieve full coverage bu
+ t to reach specific parts of the control flow graph as early as possible. 
+ Our symbolic execution approach proceeds along a single path at a time and
+  backtracks on meeting infeasibility always trying to optimise the path so
+  that the targets are covered early. We discuss the basic framework\, and 
+ then present two improvements on that\, primarily to do good backtracking.
+  The first method is based on probabilistic calculations based on past run
+ s. The second method is based on a Q table based learning technique akin t
+ o reinforcement learning.\n\nRegistration: Use this link to register for t
+ he talk.  Registration is required to attend the talk\, which takes only 1
+  minute. Register any time before the talk\, but register early to ensure 
+ your spot! After registering\, you will receive a confirmation email conta
+ ining information about joining the meeting. 
+LOCATION:https://us06web.zoom.us/meeting/register/tZEqdeqqrzMpHdzH0yqL03J4
+ VLUpSMPeDxAp
 ORGANIZER:MAILTO:seri
 PRIORITY:5
 END:VEVENT
