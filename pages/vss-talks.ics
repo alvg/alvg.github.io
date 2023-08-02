@@ -4,26 +4,14 @@ PRODID:-//alvg calendar generator//PL related talks//EN
 REFRESH-INTERVAL;VALUE=DURATION:PT4H
 X-WR-CALNAME:VSS Talks
 BEGIN:VEVENT
-SUMMARY:VSS - Verification of Concurrent Programs with Civl
-DTSTART;TZID=Asia/Calcutta:20230711T190000
-DTEND;TZID=Asia/Calcutta:20230711T203000
-UID:2023-07@vss-iarcs
+SUMMARY:VSS - TBA
+DTSTART;TZID=Asia/Calcutta:20230824T190000
+DTEND;TZID=Asia/Calcutta:20230824T203000
+UID:2023-08@vss-iarcs
 DESCRIPTION:Meeting Details: Zoom link\, ID: 891 6409 4870\, Passcode: 082
  194\n\n Talk-Webpage: https://fmindia.cmi.ac.in/vss/\n\n\n\nhttps://us02we
- b.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUdHU0djQT09\n\nTitle: Ver
- ification of Concurrent Programs with Civl\n\nSpeaker: Shaz Qadeer\n\nAbst
- ract: The Civl verifier introduces layered refinement\, a new approach to 
- the construction of verified concurrent programs and their proofs. This ap
- proach simplifies and scales (human and automated) reasoning by enabling a
-  concurrent program to be represented and manipulated at multiple layers o
- f abstraction. These abstraction layers are chained together via simple pr
- ogram transformations\; each transformation is justified by a collection o
- f automatically-checked verification conditions. Civl proofs are maintaina
- ble and reusable\, specifically eliminating the need to write complex inva
- riants on the low-level encoding of the concurrent program as a flat trans
- ition system. Civl has been used to construct verified low-level implement
- ations of complex systems such as a concurrent garbage collector\, a conse
- nsus protocol\, and shared-memory data structures.
+ b.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUdHU0djQT09\n\nTitle: TBA
+ \n\nSpeaker: Supratik Chakraborty\n\nAbstract: TBA
 LOCATION:https://us02web.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUd
  HU0djQT09
 ORGANIZER:MAILTO:vss
