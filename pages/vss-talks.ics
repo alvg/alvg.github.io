@@ -5,9 +5,9 @@ REFRESH-INTERVAL;VALUE=DURATION:PT4H
 X-WR-CALNAME:VSS Talks
 BEGIN:VEVENT
 SUMMARY:VSS - TBA
-DTSTART;TZID=Asia/Calcutta:20230824T190000
-DTEND;TZID=Asia/Calcutta:20230824T203000
-UID:2023-08@vss-iarcs
+DTSTART;TZID=Asia/Calcutta:20230914T190000
+DTEND;TZID=Asia/Calcutta:20230914T203000
+UID:2023-09@vss-iarcs
 DESCRIPTION:Meeting Details: Zoom link\, ID: 891 6409 4870\, Passcode: 082
  194\n\n Talk-Webpage: https://fmindia.cmi.ac.in/vss/\n\n\n\nhttps://us02we
  b.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUdHU0djQT09\n\nTitle: TBA
