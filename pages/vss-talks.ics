@@ -4,14 +4,37 @@ PRODID:-//alvg calendar generator//PL related talks//EN
 REFRESH-INTERVAL;VALUE=DURATION:PT4H
 X-WR-CALNAME:VSS Talks
 BEGIN:VEVENT
-SUMMARY:VSS - TBA
+SUMMARY:VSS - Synthesizing Pareto-Optimal Interpretations for Black-Box ML
+  Models
 DTSTART;TZID=Asia/Calcutta:20230914T190000
 DTEND;TZID=Asia/Calcutta:20230914T203000
 UID:2023-09@vss-iarcs
 DESCRIPTION:Meeting Details: Zoom link\, ID: 891 6409 4870\, Passcode: 082
  194\n\n Talk-Webpage: https://fmindia.cmi.ac.in/vss/\n\n\n\nhttps://us02we
- b.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUdHU0djQT09\n\nTitle: TBA
- \n\nSpeaker: Supratik Chakraborty\n\nAbstract: TBA
+ b.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUdHU0djQT09\n\nTitle: Syn
+ thesizing Pareto-Optimal Interpretations for Black-Box ML Models\n\nSpeake
+ r: Supratik Chakraborty\n\nAbstract: We present a new multi-objective opti
+ mization approach for synthesizing interpretations that "explain" the beha
+ vior of black-box machine learning models. Constructing human-understandab
+ le interpretations for black-box models often requires balancing conflicti
+ ng objectives. A simple interpretation may be easier to understand for hum
+ ans while being less precise in its predictions vis-a-vis a complex interp
+ retation. Existing methods for synthesizing interpretations use a single o
+ bjective function and are often optimized for a single class of interpreta
+ tions. In contrast\, we provide a more general and multi-objective synthes
+ is framework that allows users to choose (1) the class of syntactic templa
+ tes from which an interpretation should be synthesized\, and (2) quantitat
+ ive measures on both the correctness and explainability (or other suitable
+  measure) of an interpretation. For a given black-box\, our approach yield
+ s a set of Pareto-optimal interpretations with respect to the correctness 
+ and explainability measures. We show that the underlying multi-objective o
+ ptimization problem can be solved via a reduction to quantitative constrai
+ nt solving\, such as weighted maximum satisfiability. To demonstrate the b
+ enefits of our approach\, we have applied it to synthesize interpretations
+  for black-box neural-network classifiers. Our experiments show that there
+  often exists a rich and varied set of choices for interpretations that ar
+ e missed by existing approaches. This is joint work with Hazem Torfah\, Sh
+ etal Shah\, S. Akshay and Sanjit Seshia.
 LOCATION:https://us02web.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUd
  HU0djQT09
 ORGANIZER:MAILTO:vss
