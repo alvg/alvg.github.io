@@ -4,14 +4,34 @@ PRODID:-//alvg calendar generator//PL related talks//EN
 REFRESH-INTERVAL;VALUE=DURATION:PT4H
 X-WR-CALNAME:VSS Talks
 BEGIN:VEVENT
-SUMMARY:VSS - TBA
+SUMMARY:VSS - Analysis of incomplete programs via Proof Engines and Fuzzin
+ g
 DTSTART;TZID=Asia/Calcutta:20231010T190000
 DTEND;TZID=Asia/Calcutta:20231010T203000
 UID:2023-10@vss-iarcs
 DESCRIPTION:Meeting Details: Zoom link\, ID: 891 6409 4870\, Passcode: 082
  194\n\n Talk-Webpage: https://fmindia.cmi.ac.in/vss/\n\n\n\nhttps://us02we
- b.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUdHU0djQT09\n\nTitle: TBA
- \n\nSpeaker: TBA\n\nAbstract: TBA
+ b.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUdHU0djQT09\n\nTitle: Ana
+ lysis of incomplete programs via Proof Engines and Fuzzing\n\nSpeaker: Sub
+ hajit Roy\n\nAbstract: We tackle the problem of testing and verifying "inc
+ omplete" programs — that contain components whose source code is either 
+ unavailable (like third-party libraries and cloud-based APIs)\, or too com
+ plex to model formally (like large machine learning models). We show how c
+ lassical techniques like symbolic execution\, deductive verification and S
+ MT solving can be "lifted" to this setting. The techniques essentially emp
+ loy a combination of automated SMT based proofs\, with tests from modern f
+ uzzers for testing and "almost" verification of such programs. We will del
+ ve into one of our contributions: Sādhak\, a solver for SMT theories modu
+ lo closed-box functions. Our core idea is to use a synergistic combination
+  of a fuzzer to reason on closed-box functions and an SMT engine to solve 
+ the constraints pertaining to the SMT theories. The fuzz and the SMT engin
+ es attempt to converge to a model by exchanging a rich set of interface co
+ nstraints that are relevant and interpretable by them. Our implementation\
+ , Sādhak\, demonstrates a significant advantage over the only other solve
+ r that is capable of handling such closed-box constraints: Sādhak solves 
+ 36.45% more benchmarks than the best-performing mode of this state-of-the-
+ art solver and has 5.72x better PAR-2 score\; on the benchmarks that are s
+ olved by both tools\, Sādhak is (on an average) 14.62x faster.
 LOCATION:https://us02web.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUd
  HU0djQT09
 ORGANIZER:MAILTO:vss
