@@ -4,35 +4,32 @@ PRODID:-//alvg calendar generator//PL related talks//EN
 REFRESH-INTERVAL;VALUE=DURATION:PT4H
 X-WR-CALNAME:VSS Talks
 BEGIN:VEVENT
-SUMMARY:VSS - Bidding Games on Graphs - In theory and in practice.
-DTSTART;TZID=Asia/Calcutta:20240319T190000
-DTEND;TZID=Asia/Calcutta:20240319T203000
-UID:2024-03@vss-iarcs
+SUMMARY:VSS - Coarser Equivalences for Causal Concurrency
+DTSTART;TZID=Asia/Calcutta:20240402T190000
+DTEND;TZID=Asia/Calcutta:20240402T203000
+UID:2024-04@vss-iarcs
 DESCRIPTION:Meeting Details: Zoom link\, ID: 891 6409 4870\, Passcode: 082
  194\n\n Talk-Webpage: https://fmindia.cmi.ac.in/vss/\n\n\n\nhttps://us02we
- b.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUdHU0djQT09\n\nTitle: Bid
- ding Games on Graphs - In theory and in practice.\n\nSpeaker: Suman Sadhuk
- han\n\nAbstract: In a two-player zero-sum graph game\, the players move a 
- token throughout the game\, producing an infinite play\, which determines 
- the winner of the game. Bidding games are graph games in which in each tur
- n\, a bidding (auction) determines which player moves the token: the playe
- rs have budgets\, and in each turn\, both players simultaneously submit th
- e bids that do not exceed the available budgets. The higher bidder moves t
- he token\, and pays the bid to the lower bidder (called Richman bidding). 
- The standard solution concept of interest in bidding games are threshold b
- udgets: the necessary and sufficient budget for winning the game. In this 
- survey talk\, on the theoretical side\, we will explore discrete bidding g
- ames\, where the keyword discrete stands for the bids having a fixed granu
- larity. We obtain membership in NP ∩ coNP for solving parity bidding gam
- es with exponentially succinct representation. This will be followed by ou
- r newly proposed application of bidding games to a decentralized synthesis
-  problem for multi-objective decision making. Here\, synthesized policies 
- express their scheduling urgency via bids and a bounded budget guarantees 
- long-run fairness. Moreover\, our proposed solution framework is modular\,
-  in the sense that if one objective changes\, we may still combine the pol
- icy for the other objective without having the need to recompute it from s
- cratch. These works have been in collaboration with Guy Avni and Kaushik M
- allik.
+ b.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUdHU0djQT09\n\nTitle: Coa
+ rser Equivalences for Causal Concurrency\n\nSpeaker: Azadeh Farzan\n\nAbst
+ ract: In this talk\, I will discuss relaxations of trace equivalence with 
+ the goal of maintaining its algorithmic advantages. Specifically\, for the
+  problem of checking\, in a streaming setting\, if two arbitrary steps of 
+ a concurrent program run are causally concurrent (i.e. they can be reorder
+ ed in an equivalent run) or causally ordered (i.e. they always appear in t
+ he same order in all equivalent runs)\, trace equivalence yields constant-
+ space algorithms. I will discuss how certain relaxations\, provably\, do n
+ ot yield similar efficient algorithms. Then\, I will introduce a new commu
+ tativity-based notion of equivalence called grain equivalence that is stri
+ ctly more relaxed than trace equivalence\, and yet yields a constant space
+  algorithm for the same problem. This notion of equivalence uses commutati
+ vity of grains\, which are sequences of atomic steps\, in addition to the 
+ standard commutativity from trace theory. I will discuss two distinct case
+ s when the grains are contiguous subwords of the input program run and whe
+ n they are not\, formulate the precise definition of causal concurrency in
+  each case\, and show that they can be decided in constant space\, despite
+  being strict relaxations of the notion of causal concurrency based on tra
+ ce equivalence.
 LOCATION:https://us02web.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUd
  HU0djQT09
 ORGANIZER:MAILTO:vss
