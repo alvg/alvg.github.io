@@ -4,32 +4,38 @@ PRODID:-//alvg calendar generator//PL related talks//EN
 REFRESH-INTERVAL;VALUE=DURATION:PT4H
 X-WR-CALNAME:VSS Talks
 BEGIN:VEVENT
-SUMMARY:VSS - Coarser Equivalences for Causal Concurrency
-DTSTART;TZID=Asia/Calcutta:20240402T190000
-DTEND;TZID=Asia/Calcutta:20240402T203000
-UID:2024-04@vss-iarcs
+SUMMARY:VSS - Weakest Precondition Inference for Linear Array Programs
+DTSTART;TZID=Asia/Calcutta:20240507T190000
+DTEND;TZID=Asia/Calcutta:20240507T203000
+UID:2024-05@vss-iarcs
 DESCRIPTION:Meeting Details: Zoom link\, ID: 891 6409 4870\, Passcode: 082
  194\n\n Talk-Webpage: https://fmindia.cmi.ac.in/vss/\n\n\n\nhttps://us02we
- b.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUdHU0djQT09\n\nTitle: Coa
- rser Equivalences for Causal Concurrency\n\nSpeaker: Azadeh Farzan\n\nAbst
- ract: In this talk\, I will discuss relaxations of trace equivalence with 
- the goal of maintaining its algorithmic advantages. Specifically\, for the
-  problem of checking\, in a streaming setting\, if two arbitrary steps of 
- a concurrent program run are causally concurrent (i.e. they can be reorder
- ed in an equivalent run) or causally ordered (i.e. they always appear in t
- he same order in all equivalent runs)\, trace equivalence yields constant-
- space algorithms. I will discuss how certain relaxations\, provably\, do n
- ot yield similar efficient algorithms. Then\, I will introduce a new commu
- tativity-based notion of equivalence called grain equivalence that is stri
- ctly more relaxed than trace equivalence\, and yet yields a constant space
-  algorithm for the same problem. This notion of equivalence uses commutati
- vity of grains\, which are sequences of atomic steps\, in addition to the 
- standard commutativity from trace theory. I will discuss two distinct case
- s when the grains are contiguous subwords of the input program run and whe
- n they are not\, formulate the precise definition of causal concurrency in
-  each case\, and show that they can be decided in constant space\, despite
-  being strict relaxations of the notion of causal concurrency based on tra
- ce equivalence.
+ b.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUdHU0djQT09\n\nTitle: Wea
+ kest Precondition Inference for Linear Array Programs\n\nSpeaker: Sumanth 
+ Prabhu\n\nAbstract: The problem of precondition inference is to find a set
+  of initial states from which all terminating executions of a given progra
+ m reach states that satisfy a given postcondition. The weakest preconditio
+ n refers to the largest such set of initial states. The weakest preconditi
+ on is helpful in many practical problems around software development\, ver
+ ification\, and testing. Hence\, its automatic inference is an important p
+ roblem and has received considerable attention. However\, existing techniq
+ ues find it challenging to handle programs with arrays. In this talk\, I w
+ ill present our technique to find quantified weakest preconditions for pro
+ grams with arrays. Our technique is effective on a class of programs calle
+ d linear array programs. We prove that linear array programs' weakest prec
+ ondition computation is undecidable. Nevertheless\, such programs often ap
+ pear in practice. Hence\, many array works target them but for verificatio
+ n\, not precondition inference. We propose a precondition inference techni
+ que in the Infer-Check-Weaken framework. It first infers a precondition al
+ ong with adequate inductive invariants. A maximality check follows to see 
+ whether the precondition is the weakest. If not\, the precondition is weak
+ ened. In this framework\, we present novel methods for each module. We exp
+ erimentally show that our technique is significantly better than the state
+ -of-the-art over a set of existing linear array programs. This talk is bas
+ ed on our two papers from ESOP 2024 and TACAS 2024. The work is done in co
+ llaboration with Deepak D'Souza (Indian Institute of Science)\, Grigory Fe
+ dyukovich (Florida State University)\, Supratik Chakraborty (IIT Bombay)\,
+  and R Venkatesh (TCS Research).
 LOCATION:https://us02web.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUd
  HU0djQT09
 ORGANIZER:MAILTO:vss
