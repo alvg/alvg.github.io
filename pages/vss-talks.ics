@@ -14,17 +14,17 @@ DESCRIPTION:Meeting Details: Zoom link\, ID: 891 6409 4870\, Passcode: 082
  ifying Programs in Weak Memory Models with Persistency\n\nSpeaker: Prakash
   Saivasan\n\nAbstract: In this talk\, we will consider the problem of veri
  fying concurrent programs. In here\, we are given a set of programs that c
- ommunicate through shared memory and a specification\, we wish algorithmic
- ally check if the programs violate the specification. The programmers\, wh
- ile writing code usually assume that the memory operations are immediate (
- referred to as sequential consistency). However\, the modern day architect
- ures\, to optimise the running time\, re-order the memory operations in a 
- non-trivial manner. This leads to various memory models such as TSO\, PSO 
- and so on. We will walk through some of these memory models during the tal
- k. The recent intel processor introduced persistency mechanism that allows
-  for the writes to be archived. This can then be used to restart the compu
- tation in case of a crash. The main focus of the talk will be how to verif
- y programs when persistency is combined with weak memory.
+ ommunicate through shared memory and a specification\, we wish to algorith
+ mically check if the programs violate the specification. The programmers\,
+  while writing code usually assume that the memory operations are immediat
+ e (referred to as sequential consistency). However\, the modern day archit
+ ectures\, to optimise the running time\, re-order the memory operations in
+  a non-trivial manner. This leads to various memory models such as TSO\, P
+ SO and so on. We will walk through some of these memory models during the 
+ talk. The recent intel processor introduced persistency mechanism that all
+ ows for the writes to be archived. This can then be used to restart the co
+ mputation in case of a crash. The main focus of the talk will be how to ve
+ rify programs when persistency is combined with weak memory.
 LOCATION:https://us02web.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUd
  HU0djQT09
 ORGANIZER:MAILTO:vss
