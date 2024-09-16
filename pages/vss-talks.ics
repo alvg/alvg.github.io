@@ -4,27 +4,26 @@ PRODID:-//alvg calendar generator//PL related talks//EN
 REFRESH-INTERVAL;VALUE=DURATION:PT4H
 X-WR-CALNAME:VSS Talks
 BEGIN:VEVENT
-SUMMARY:VSS - Verifying Programs in Weak Memory Models with Persistency
-DTSTART;TZID=Asia/Calcutta:20240806T190000
-DTEND;TZID=Asia/Calcutta:20240806T203000
-UID:2024-08@vss-iarcs
+SUMMARY:VSS - Learning and Guessing Winning Policies in LTL Synthesis via 
+ Semantics
+DTSTART;TZID=Asia/Calcutta:20241015T190000
+DTEND;TZID=Asia/Calcutta:20241015T203000
+UID:2024-10@vss-iarcs
 DESCRIPTION:Meeting Details: Zoom link\, ID: 891 6409 4870\, Passcode: 082
  194\n\n Talk-Webpage: https://fmindia.cmi.ac.in/vss/\n\n\n\nhttps://us02we
- b.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUdHU0djQT09\n\nTitle: Ver
- ifying Programs in Weak Memory Models with Persistency\n\nSpeaker: Prakash
-  Saivasan\n\nAbstract: In this talk\, we will consider the problem of veri
- fying concurrent programs. In here\, we are given a set of programs that c
- ommunicate through shared memory and a specification\, we wish to algorith
- mically check if the programs violate the specification. The programmers\,
-  while writing code usually assume that the memory operations are immediat
- e (referred to as sequential consistency). However\, the modern day archit
- ectures\, to optimise the running time\, re-order the memory operations in
-  a non-trivial manner. This leads to various memory models such as TSO\, P
- SO and so on. We will walk through some of these memory models during the 
- talk. The recent intel processor introduced persistency mechanism that all
- ows for the writes to be archived. This can then be used to restart the co
- mputation in case of a crash. The main focus of the talk will be how to ve
- rify programs when persistency is combined with weak memory.
+ b.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUdHU0djQT09\n\nTitle: Lea
+ rning and Guessing Winning Policies in LTL Synthesis via Semantics\n\nSpea
+ ker: Jan Křetínský\n\nAbstract: We discuss a learning-based framework f
+ or guessing a winning strategy in a parity game originating from a reactiv
+ e synthesis problem for LTL. Its applications range from cases where the g
+ ame's huge size prohibits rigorous approaches\, over increasing scalabilit
+ y of rigorous synthesis\, to explainability of synthesized controllers. We
+  discuss the advantages and caveats of these new avenues in synthesis. On 
+ the technical level\, we describe (i) how to reflect the highly structured
+  logical information in game's states\, the so-called semantic labelling\,
+  coming from the recent LTL-to-automata translations\, and (ii) to do so b
+ y learning from previously solved games\, bringing the solution process cl
+ oser to human-like reasoning.
 LOCATION:https://us02web.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUd
  HU0djQT09
 ORGANIZER:MAILTO:vss
