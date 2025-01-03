@@ -4,26 +4,34 @@ PRODID:-//alvg calendar generator//PL related talks//EN
 REFRESH-INTERVAL;VALUE=DURATION:PT4H
 X-WR-CALNAME:VSS Talks
 BEGIN:VEVENT
-SUMMARY:VSS - Learning and Guessing Winning Policies in LTL Synthesis via 
- Semantics
-DTSTART;TZID=Asia/Calcutta:20241015T190000
-DTEND;TZID=Asia/Calcutta:20241015T203000
-UID:2024-10@vss-iarcs
+SUMMARY:VSS - Insecurity problem for assertions
+DTSTART;TZID=Asia/Calcutta:20240107T190000
+DTEND;TZID=Asia/Calcutta:20240107T203000
+UID:2024-01@vss-iarcs
 DESCRIPTION:Meeting Details: Zoom link\, ID: 891 6409 4870\, Passcode: 082
  194\n\n Talk-Webpage: https://fmindia.cmi.ac.in/vss/\n\n\n\nhttps://us02we
- b.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUdHU0djQT09\n\nTitle: Lea
- rning and Guessing Winning Policies in LTL Synthesis via Semantics\n\nSpea
- ker: Jan Křetínský\n\nAbstract: We discuss a learning-based framework f
- or guessing a winning strategy in a parity game originating from a reactiv
- e synthesis problem for LTL. Its applications range from cases where the g
- ame's huge size prohibits rigorous approaches\, over increasing scalabilit
- y of rigorous synthesis\, to explainability of synthesized controllers. We
-  discuss the advantages and caveats of these new avenues in synthesis. On 
- the technical level\, we describe (i) how to reflect the highly structured
-  logical information in game's states\, the so-called semantic labelling\,
-  coming from the recent LTL-to-automata translations\, and (ii) to do so b
- y learning from previously solved games\, bringing the solution process cl
- oser to human-like reasoning.
+ b.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUdHU0djQT09\n\nTitle: Ins
+ ecurity problem for assertions\n\nSpeaker: S P Suresh\n\nAbstract: Securit
+ y protocols underpin most aspects of our digital lives nowadays\, with fin
+ ance\, health\, and even citizenship requiring some online interaction wit
+ h remote servers over an insecure network\, and involving exchange of sens
+ itive private information. Formal verification of such protocols has a lon
+ g history of more than 40 years (and applied on many fundamental protocols
+  like TLS and the Signal messaging protocol\, and various protocols for el
+ ectronic voting\, e-commerce\, etc.). One of the central theoretical resul
+ ts [Rusinowitch-Turuani (2003)] is that the problem of deciding if there i
+ s a B-bounded attack on a given protocol is NP-complete\, for a fixed numb
+ er B. A B-bounded attack is one which involves at most B messages and in w
+ hich a secret is leaked to the malicious attacker. The technical challenge
+  is that although the number of messages is bounded in such attacks\, the 
+ size of each message is not. In recent work [Ramanujam-Sundararajan-Suresh
+  (2024)] we extended the above NP-completeness result to protocols that in
+ volve\, in addition to "traditional" messages themselves\, certificates or
+  assertions of the form "the previous term that I sent is encrypted\, and 
+ the term inside the encryption is a number between 1 to 10." In this talk\
+ , we describe the insecurity problem\, and the solution by Rusinowitch-Tur
+ uani (RT03)\, and show how we can extend the analysis of RT03 to our setti
+ ng.
 LOCATION:https://us02web.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUd
  HU0djQT09
 ORGANIZER:MAILTO:vss
