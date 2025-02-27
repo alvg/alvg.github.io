@@ -4,34 +4,41 @@ PRODID:-//alvg calendar generator//PL related talks//EN
 REFRESH-INTERVAL;VALUE=DURATION:PT4H
 X-WR-CALNAME:VSS Talks
 BEGIN:VEVENT
-SUMMARY:VSS - Insecurity problem for assertions
-DTSTART;TZID=Asia/Calcutta:20240107T190000
-DTEND;TZID=Asia/Calcutta:20240107T203000
-UID:2024-01@vss-iarcs
+SUMMARY:VSS - Taking Back Control: Formally Modelling a Compiler Intermedi
+ ate Representation for GPU Computing
+DTSTART;TZID=Asia/Calcutta:20250304T190000
+DTEND;TZID=Asia/Calcutta:20250304T203000
+UID:2025-03@vss-iarcs
 DESCRIPTION:Meeting Details: Zoom link\, ID: 891 6409 4870\, Passcode: 082
  194\n\n Talk-Webpage: https://fmindia.cmi.ac.in/vss/\n\n\n\nhttps://us02we
- b.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUdHU0djQT09\n\nTitle: Ins
- ecurity problem for assertions\n\nSpeaker: S P Suresh\n\nAbstract: Securit
- y protocols underpin most aspects of our digital lives nowadays\, with fin
- ance\, health\, and even citizenship requiring some online interaction wit
- h remote servers over an insecure network\, and involving exchange of sens
- itive private information. Formal verification of such protocols has a lon
- g history of more than 40 years (and applied on many fundamental protocols
-  like TLS and the Signal messaging protocol\, and various protocols for el
- ectronic voting\, e-commerce\, etc.). One of the central theoretical resul
- ts [Rusinowitch-Turuani (2003)] is that the problem of deciding if there i
- s a B-bounded attack on a given protocol is NP-complete\, for a fixed numb
- er B. A B-bounded attack is one which involves at most B messages and in w
- hich a secret is leaked to the malicious attacker. The technical challenge
-  is that although the number of messages is bounded in such attacks\, the 
- size of each message is not. In recent work [Ramanujam-Sundararajan-Suresh
-  (2024)] we extended the above NP-completeness result to protocols that in
- volve\, in addition to "traditional" messages themselves\, certificates or
-  assertions of the form "the previous term that I sent is encrypted\, and 
- the term inside the encryption is a number between 1 to 10." In this talk\
- , we describe the insecurity problem\, and the solution by Rusinowitch-Tur
- uani (RT03)\, and show how we can extend the analysis of RT03 to our setti
- ng.
+ b.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUdHU0djQT09\n\nTitle: Tak
+ ing Back Control: Formally Modelling a Compiler Intermediate Representatio
+ n for GPU Computing\n\nSpeaker: Alastair Donaldson\n\nAbstract: We will pr
+ esent our POPL 2023 work on using formal modelling and analysis techniques
+  to understand and fix fundamental problems in the design of SPIR-V\, a co
+ mpiler intermediate representation that is widely-used in GPU computing. A
+ n innovation of SPIR-V is that it features special instructions that allow
+  information about high level control flow constructs to be documented in 
+ its otherwise-unstructured basic block-based representation. The idea is t
+ hat compilers can exploit this information to generate efficient GPU-speci
+ fic machine code. However\, the original definitions of these instructions
+  and the rules that govern them were fraught with ambiguities\, preventing
+  users of SPIR-V from understanding their purpose and hindering their use 
+ by compiler developers. We used the Alloy modelling language and analysis 
+ tool to build an initial best-effort formal model of SPIR-V control flow\,
+  after which we iteratively refined the model by cross-checking it against
+  official documentation\, test suites and validation tools\, consulting wi
+ th experts in industry to resolve differences. Along the way we fixed nume
+ rous deficiencies in these test suites and validation tools\, and ended up
+  with agreement between our revised formal model and these other sources o
+ f truth about SPIR-V. We then rewrote relevant parts of the English langua
+ ge formal specification based on our rigorous formal model\, and our chang
+ es to the language have been incorporated in the latest version of the SPI
+ R-V specification. As an added bonus\, we devised a novel technique for au
+ tomated testing of SPIR-V compilers that uses our formal model to generate
+  unusual control flow graphs which are then fleshed out into self-checking
+  SPIR-V test cases. This led to the discovery of numerous bugs affecting o
+ pen source and commercial SPIR-V compilers.
 LOCATION:https://us02web.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUd
  HU0djQT09
 ORGANIZER:MAILTO:vss
