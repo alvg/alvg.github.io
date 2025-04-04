@@ -4,41 +4,34 @@ PRODID:-//alvg calendar generator//PL related talks//EN
 REFRESH-INTERVAL;VALUE=DURATION:PT4H
 X-WR-CALNAME:VSS Talks
 BEGIN:VEVENT
-SUMMARY:VSS - Taking Back Control: Formally Modelling a Compiler Intermedi
- ate Representation for GPU Computing
-DTSTART;TZID=Asia/Calcutta:20250304T190000
-DTEND;TZID=Asia/Calcutta:20250304T203000
-UID:2025-03@vss-iarcs
+SUMMARY:VSS - Pulse: Proof-oriented Programming with Concurrent Separation
+  Logic in F*
+DTSTART;TZID=Asia/Calcutta:20250408T190000
+DTEND;TZID=Asia/Calcutta:20250408T203000
+UID:2025-04@vss-iarcs
 DESCRIPTION:Meeting Details: Zoom link\, ID: 891 6409 4870\, Passcode: 082
  194\n\n Talk-Webpage: https://fmindia.cmi.ac.in/vss/\n\n\n\nhttps://us02we
- b.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUdHU0djQT09\n\nTitle: Tak
- ing Back Control: Formally Modelling a Compiler Intermediate Representatio
- n for GPU Computing\n\nSpeaker: Alastair Donaldson\n\nAbstract: We will pr
- esent our POPL 2023 work on using formal modelling and analysis techniques
-  to understand and fix fundamental problems in the design of SPIR-V\, a co
- mpiler intermediate representation that is widely-used in GPU computing. A
- n innovation of SPIR-V is that it features special instructions that allow
-  information about high level control flow constructs to be documented in 
- its otherwise-unstructured basic block-based representation. The idea is t
- hat compilers can exploit this information to generate efficient GPU-speci
- fic machine code. However\, the original definitions of these instructions
-  and the rules that govern them were fraught with ambiguities\, preventing
-  users of SPIR-V from understanding their purpose and hindering their use 
- by compiler developers. We used the Alloy modelling language and analysis 
- tool to build an initial best-effort formal model of SPIR-V control flow\,
-  after which we iteratively refined the model by cross-checking it against
-  official documentation\, test suites and validation tools\, consulting wi
- th experts in industry to resolve differences. Along the way we fixed nume
- rous deficiencies in these test suites and validation tools\, and ended up
-  with agreement between our revised formal model and these other sources o
- f truth about SPIR-V. We then rewrote relevant parts of the English langua
- ge formal specification based on our rigorous formal model\, and our chang
- es to the language have been incorporated in the latest version of the SPI
- R-V specification. As an added bonus\, we devised a novel technique for au
- tomated testing of SPIR-V compilers that uses our formal model to generate
-  unusual control flow graphs which are then fleshed out into self-checking
-  SPIR-V test cases. This led to the discovery of numerous bugs affecting o
- pen source and commercial SPIR-V compilers.
+ b.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUdHU0djQT09\n\nTitle: Pul
+ se: Proof-oriented Programming with Concurrent Separation Logic in F*\n\nS
+ peaker: Nikhil Swamy\n\nAbstract: F* is a dependently typed programming la
+ nguage. It has been used to develop more than a million lines of verified 
+ code and proofs\, for artifacts ranging from cryptographic libraries to ne
+ tworking components. Some of this verified software runs in widely used pr
+ oduction systems\, ranging from the Windows kernel to the Python standard 
+ library. However\, most of this corpus of verified code is purely sequenti
+ al. Pulse is a new extension of F* enabling programming and proving impera
+ tive programs with shared-memory concurrency. Proofs in Pulse are conducte
+ d in a new program logic called PulseCore\, a concurrent separation logic 
+ with state-of-the-art features\, including higher-order ghost state and im
+ predicative invariants\, backed by a foundational semantics developed with
+ in F* itself. Programs are verified in Pulse using a custom checker with a
+  combination of tactics and SMT solving. Once proven\, programs in Pulse c
+ an be extracted to OCaml\, C\, or Rust\, depending on the libraries and fe
+ atures used. Pulse is being used in a number of new projects\, including i
+ n the development of verified firmware\, in new libraries for secure data 
+ formatting\, and for verified CPU/GPU programs. I will provide some backgr
+ ound on F* and concurrent separation logic\, and then introduce Pulse by w
+ ay of examples and a tool demonstration.
 LOCATION:https://us02web.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUd
  HU0djQT09
 ORGANIZER:MAILTO:vss
