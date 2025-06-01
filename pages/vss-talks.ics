@@ -5,26 +5,23 @@ REFRESH-INTERVAL;VALUE=DURATION:PT4H
 X-WR-CALNAME:VSS Talks
 BEGIN:VEVENT
 SUMMARY:VSS - Active learning of deterministic one-counter automata
-DTSTART;TZID=Asia/Calcutta:20250520T190000
-DTEND;TZID=Asia/Calcutta:20250520T203000
-UID:2025-05@vss-iarcs
+DTSTART;TZID=Asia/Calcutta:20250610T190000
+DTEND;TZID=Asia/Calcutta:20250610T203000
+UID:2025-06@vss-iarcs
 DESCRIPTION:Meeting Details: Zoom link\, ID: 891 6409 4870\, Passcode: 082
  194\n\n Talk-Webpage: https://fmindia.cmi.ac.in/vss/\n\n\n\nhttps://us02we
  b.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUdHU0djQT09\n\nTitle: Act
  ive learning of deterministic one-counter automata\n\nSpeaker: Sreejith A 
- V\n\nAbstract: Deterministic one-counter automata (DOCA) extend finite aut
- omata with a counter that can be incremented\, decremented or reset to zer
- o. The transition of a DOCA depends on the current state\, the letter\, an
- d whether the current counter value is zero. In an active learning framewo
- rk\, a Learner intends to learn a language by querying the Teacher with me
- mbership and equivalence queries. Angluin's classical L* algorithm showed 
- that in this framework\, a DFA can be learnt in polynomial time. In this t
- alk\, we are interested in the active learning of DOCA. All existing algor
- ithms for learning DOCA run in time exponential in the size of the minimal
-  DOCA recognising the language. We present OL*\, the first active learning
-  algorithm that learns a DOCA in polynomial time. This is a joint work wit
- h Prince Mathew and Vincent Penelle. arXiv: https://arxiv.org/abs/2503.045
- 25 (to appear in LICS'25)
+ V\n\nAbstract: The goal of explainability is to make sense of the decision
+ s made by black-box ML models. Unfortunately\, many existing explanation m
+ ethods are heuristic\, which makes them unreliable. In this talk\, I will 
+ present our work on developing techniques that provide explanations with f
+ ormal guarantees\, ensuring their trustworthiness. These techniques often 
+ rely on formal verification\, particularly neural network verification too
+ ls. In addition\, we examine these explanations from a theoretical perspec
+ tive - studying the computational challenges they pose and exploring ways 
+ to build practical tools that address these challenges and enable the gene
+ ration of reliable explanations for ML models.
 LOCATION:https://us02web.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUd
  HU0djQT09
 ORGANIZER:MAILTO:vss
