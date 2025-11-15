@@ -4,39 +4,28 @@ PRODID:-//alvg calendar generator//PL related talks//EN
 REFRESH-INTERVAL;VALUE=DURATION:PT4H
 X-WR-CALNAME:VSS Talks
 BEGIN:VEVENT
-SUMMARY:VSS - Resolving Nondeterminism by Chance
-DTSTART;TZID=Asia/Calcutta:20250916T190000
-DTEND;TZID=Asia/Calcutta:20250916T203000
-UID:2025-09@vss-iarcs
+SUMMARY:VSS - A Mechanically Verified Garbage Collector for OCaml
+DTSTART;TZID=Asia/Calcutta:20251118T190000
+DTEND;TZID=Asia/Calcutta:20251118T203000
+UID:2025-11@vss-iarcs
 DESCRIPTION:Meeting Details: Zoom link\, ID: 891 6409 4870\, Passcode: 082
  194\n\n Talk-Webpage: https://fmindia.cmi.ac.in/vss/\n\n\n\nhttps://us02we
- b.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUdHU0djQT09\n\nTitle: Res
- olving Nondeterminism by Chance\n\nSpeaker: Soumyajit Paul\n\nAbstract: Hi
- story-deterministic automata are those in which nondeterministic choices c
- an be correctly resolved stepwise: there is a strategy to select a continu
- ation of a run given the next input letter so that if the overall input wo
- rd admits some accepting run\, then the constructed run is also accepting.
-  The notion of History Determinism (sometimes known as Good for Games) was
-  introduced by Henzinger and Piterman in 2006 motivated by applications in
-  reactive synthesis. Later\, it has been studied for several models such a
- s Pushdown systems\, Timed automata\, Vector Addition systems\, etc. Motiv
- ated by checking qualitative properties in probabilistic verification\, we
-  introduce the setting where the resolver strategy can randomize and only 
- needs to succeed with lower-bounded probability. In this talk\, I will pre
- sent our work on stochastic resolution of nondeterministic automata. I wil
- l discuss the expressiveness of stochastically-resolvable automata as well
-  as our complexity results for deciding stochastic resolvability. In parti
- cular\, we show that it is undecidable to check if a given NFA is stochast
- ically resolvable with a given threshold. The problem however becomes deci
- dable for the class of finitely-ambiguous automata. We also consider the r
- elated question of deciding whether an automata is resolvable with any pos
- itive threshold. We show that this problem is decidable for automata over 
- unary alphabet as well as for finitely-ambiguous automata. I will present 
- our complexity results for several well-studied classes of automata and al
- so discuss natural extensions of some of these results to automata for ome
- ga regular languages. I will conclude with some interesting open questions
- . This is based on joint work with David Purser\, Sven Schewe\, Qiyi Tang\
- , Patrick Totzke and Di-de Yen.
+ b.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUdHU0djQT09\n\nTitle: A M
+ echanically Verified Garbage Collector for OCaml\n\nSpeaker: KC Sivaramakr
+ ishnan\n\nAbstract: OCaml is a garbage-collected (GC) language\, where unu
+ sed memory is automatically and reliably freed. OCaml's GC is known for it
+ s high throughput and low latency\, making it suitable for both batch jobs
+  and interactive systems. OCaml GC is non-trivial and written in C\, and i
+ s a part of the trusted computing base of OCaml programs. Bugs in the GC h
+ ave the potential to violate the type safety of OCaml programs. In this ta
+ lk\, I will describe our work in developing a correct\, proof-oriented GC 
+ for OCaml from scratch\, capable of being swapped into the existing OCaml 
+ runtime system. Our GC is simple — a stop-the-world mark-and-sweep colle
+ ctor — but is capable of running non-trivial OCaml programs. The GC is d
+ eveloped in F* and its low-level subset Low*\, which is compiled to memory
+ -safe C. I will also describe the extension of our collector to enable gen
+ erational and incremental collection. This work was published in the Journ
+ al of Automated Reasoning (link).
 LOCATION:https://us02web.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUd
  HU0djQT09
 ORGANIZER:MAILTO:vss
