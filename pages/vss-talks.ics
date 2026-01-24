@@ -4,28 +4,35 @@ PRODID:-//alvg calendar generator//PL related talks//EN
 REFRESH-INTERVAL;VALUE=DURATION:PT4H
 X-WR-CALNAME:VSS Talks
 BEGIN:VEVENT
-SUMMARY:VSS - A Mechanically Verified Garbage Collector for OCaml
-DTSTART;TZID=Asia/Calcutta:20251118T190000
-DTEND;TZID=Asia/Calcutta:20251118T203000
-UID:2025-11@vss-iarcs
+SUMMARY:VSS - Following the STARS: Dynamic ω-Regular Shielding of Learned
+  Policies
+DTSTART;TZID=Asia/Calcutta:20260210T190000
+DTEND;TZID=Asia/Calcutta:20260210T203000
+UID:2026-02@vss-iarcs
 DESCRIPTION:Meeting Details: Zoom link\, ID: 891 6409 4870\, Passcode: 082
  194\n\n Talk-Webpage: https://fmindia.cmi.ac.in/vss/\n\n\n\nhttps://us02we
- b.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUdHU0djQT09\n\nTitle: A M
- echanically Verified Garbage Collector for OCaml\n\nSpeaker: KC Sivaramakr
- ishnan\n\nAbstract: OCaml is a garbage-collected (GC) language\, where unu
- sed memory is automatically and reliably freed. OCaml's GC is known for it
- s high throughput and low latency\, making it suitable for both batch jobs
-  and interactive systems. OCaml GC is non-trivial and written in C\, and i
- s a part of the trusted computing base of OCaml programs. Bugs in the GC h
- ave the potential to violate the type safety of OCaml programs. In this ta
- lk\, I will describe our work in developing a correct\, proof-oriented GC 
- for OCaml from scratch\, capable of being swapped into the existing OCaml 
- runtime system. Our GC is simple — a stop-the-world mark-and-sweep colle
- ctor — but is capable of running non-trivial OCaml programs. The GC is d
- eveloped in F* and its low-level subset Low*\, which is compiled to memory
- -safe C. I will also describe the extension of our collector to enable gen
- erational and incremental collection. This work was published in the Journ
- al of Automated Reasoning (link).
+ b.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUdHU0djQT09\n\nTitle: Fol
+ lowing the STARS: Dynamic ω-Regular Shielding of Learned Policies\n\nSpea
+ ker: Ashwani Anand\n\nAbstract: In this talk\, I will present a novel dyna
+ mic post-shielding framework that enforces the full class of ω-regular co
+ rrectness properties over pre-computed probabilistic policies. This consti
+ tutes a paradigm shift from the predominant setting of safety-shielding 
+ — i.e.\, ensuring that nothing bad ever happens — to a shielding proce
+ ss that additionally enforces liveness — i.e.\, ensures that something g
+ ood eventually happens. At the core\, our method uses Strategy-Template-ba
+ sed Adaptive Runtime Shields (STARs)\, which leverage permissive strategy 
+ templates to enable post-shielding with minimal interference. As its main 
+ feature\, STARs introduce a mechanism to dynamically control interference\
+ , allowing a tunable enforcement parameter to balance formal obligations a
+ nd task-specific behavior at runtime. This allows to trigger more aggressi
+ ve enforcement when needed\, while allowing for optimized policy choices o
+ therwise. In addition\, STARs support runtime adaptation to changing speci
+ fications or actuator failures\, making them especially suited for cyber-p
+ hysical applications. We evaluate STARs on a mobile robot benchmark to dem
+ onstrate their controllable interference when enforcing (incrementally upd
+ ated) ω-regular correctness properties over learned probabilistic policie
+ s. This talk is based on joint work with Satya Prakash Nayak\, Ritam Raha 
+ and Anne-Kathrin Schmuck\, which will appear at AAMAS 2026.
 LOCATION:https://us02web.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUd
  HU0djQT09
 ORGANIZER:MAILTO:vss
