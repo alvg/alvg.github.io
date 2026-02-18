@@ -4,35 +4,35 @@ PRODID:-//alvg calendar generator//PL related talks//EN
 REFRESH-INTERVAL;VALUE=DURATION:PT4H
 X-WR-CALNAME:VSS Talks
 BEGIN:VEVENT
-SUMMARY:VSS - Following the STARS: Dynamic ω-Regular Shielding of Learned
-  Policies
-DTSTART;TZID=Asia/Calcutta:20260210T190000
-DTEND;TZID=Asia/Calcutta:20260210T203000
-UID:2026-02@vss-iarcs
+SUMMARY:VSS - Eventually\, Understanding: Operationalizing Misconceptions 
+ in LTL
+DTSTART;TZID=Asia/Calcutta:20260310T190000
+DTEND;TZID=Asia/Calcutta:20260310T203000
+UID:2026-03@vss-iarcs
 DESCRIPTION:Meeting Details: Zoom link\, ID: 891 6409 4870\, Passcode: 082
  194\n\n Talk-Webpage: https://fmindia.cmi.ac.in/vss/\n\n\n\nhttps://us02we
- b.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUdHU0djQT09\n\nTitle: Fol
- lowing the STARS: Dynamic ω-Regular Shielding of Learned Policies\n\nSpea
- ker: Ashwani Anand\n\nAbstract: In this talk\, I will present a novel dyna
- mic post-shielding framework that enforces the full class of ω-regular co
- rrectness properties over pre-computed probabilistic policies. This consti
- tutes a paradigm shift from the predominant setting of safety-shielding 
- — i.e.\, ensuring that nothing bad ever happens — to a shielding proce
- ss that additionally enforces liveness — i.e.\, ensures that something g
- ood eventually happens. At the core\, our method uses Strategy-Template-ba
- sed Adaptive Runtime Shields (STARs)\, which leverage permissive strategy 
- templates to enable post-shielding with minimal interference. As its main 
- feature\, STARs introduce a mechanism to dynamically control interference\
- , allowing a tunable enforcement parameter to balance formal obligations a
- nd task-specific behavior at runtime. This allows to trigger more aggressi
- ve enforcement when needed\, while allowing for optimized policy choices o
- therwise. In addition\, STARs support runtime adaptation to changing speci
- fications or actuator failures\, making them especially suited for cyber-p
- hysical applications. We evaluate STARs on a mobile robot benchmark to dem
- onstrate their controllable interference when enforcing (incrementally upd
- ated) ω-regular correctness properties over learned probabilistic policie
- s. This talk is based on joint work with Satya Prakash Nayak\, Ritam Raha 
- and Anne-Kathrin Schmuck\, which will appear at AAMAS 2026.
+ b.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUdHU0djQT09\n\nTitle: Eve
+ ntually\, Understanding: Operationalizing Misconceptions in LTL\n\nSpeaker
+ : Siddhartha Prasad\n\nAbstract: Linear Temporal Logic (LTL) sits at the h
+ eart of verification and synthesis\, yet even experienced users routinely 
+ misunderstand what formulas actually say. Over several years\, we have stu
+ died LTL from a human-factors perspective across classrooms and controlled
+  experiments\, building instruments to surface the misconceptions people h
+ old about its semantics and use. These studies show that misconceptions ar
+ e not isolated mistakes but systematic misunderstandings that persist acro
+ ss levels of expertise and directly affect specification quality. This tal
+ k centers those misconceptions as the object of design. We present LTL Tut
+ or\, a lightweight\, curriculum-agnostic system that operationalizes these
+  insights into targeted practice with immediate\, actionable feedback. The
+  tutor generates exercises grounded in common misconceptions\, explains er
+ rors in terms of the learner's answer versus the correct semantics\, and u
+ ses a concept-based mutation engine to adaptively drill the ideas each lea
+ rner struggles with. It is designed to fit into existing courses without r
+ equiring changes to teaching style\, while also supporting independent lea
+ rners with minimal prior instruction. By tying feedback to concrete errors
+  and surfacing the underlying misconceptions over time\, the tutor turns s
+ everal years of research on how people misunderstand LTL into a practical\
+ , deployable tool for both classrooms and self-guided study.
 LOCATION:https://us02web.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUd
  HU0djQT09
 ORGANIZER:MAILTO:vss
