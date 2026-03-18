@@ -4,35 +4,46 @@ PRODID:-//alvg calendar generator//PL related talks//EN
 REFRESH-INTERVAL;VALUE=DURATION:PT4H
 X-WR-CALNAME:VSS Talks
 BEGIN:VEVENT
-SUMMARY:VSS - Eventually\, Understanding: Operationalizing Misconceptions 
- in LTL
-DTSTART;TZID=Asia/Calcutta:20260310T190000
-DTEND;TZID=Asia/Calcutta:20260310T203000
-UID:2026-03@vss-iarcs
+SUMMARY:VSS - Coverage Types: Underapproximate Refinement Types for Genera
+ tor Coverage
+DTSTART;TZID=Asia/Calcutta:20260407T190000
+DTEND;TZID=Asia/Calcutta:20260407T203000
+UID:2026-04@vss-iarcs
 DESCRIPTION:Meeting Details: Zoom link\, ID: 891 6409 4870\, Passcode: 082
  194\n\n Talk-Webpage: https://fmindia.cmi.ac.in/vss/\n\n\n\nhttps://us02we
- b.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUdHU0djQT09\n\nTitle: Eve
- ntually\, Understanding: Operationalizing Misconceptions in LTL\n\nSpeaker
- : Siddhartha Prasad\n\nAbstract: Linear Temporal Logic (LTL) sits at the h
- eart of verification and synthesis\, yet even experienced users routinely 
- misunderstand what formulas actually say. Over several years\, we have stu
- died LTL from a human-factors perspective across classrooms and controlled
-  experiments\, building instruments to surface the misconceptions people h
- old about its semantics and use. These studies show that misconceptions ar
- e not isolated mistakes but systematic misunderstandings that persist acro
- ss levels of expertise and directly affect specification quality. This tal
- k centers those misconceptions as the object of design. We present LTL Tut
- or\, a lightweight\, curriculum-agnostic system that operationalizes these
-  insights into targeted practice with immediate\, actionable feedback. The
-  tutor generates exercises grounded in common misconceptions\, explains er
- rors in terms of the learner's answer versus the correct semantics\, and u
- ses a concept-based mutation engine to adaptively drill the ideas each lea
- rner struggles with. It is designed to fit into existing courses without r
- equiring changes to teaching style\, while also supporting independent lea
- rners with minimal prior instruction. By tying feedback to concrete errors
-  and surfacing the underlying misconceptions over time\, the tutor turns s
- everal years of research on how people misunderstand LTL into a practical\
- , deployable tool for both classrooms and self-guided study.
+ b.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUdHU0djQT09\n\nTitle: Cov
+ erage Types: Underapproximate Refinement Types for Generator Coverage\n\nS
+ peaker: Ashish Mishra\n\nAbstract: Property-based testing (PBT) has become
+  a widely used technique for validating semantic properties of programs by
+  automatically generating test inputs that satisfy user-specified precondi
+ tions. In practice\, however\, the effectiveness of PBT depends critically
+  on the quality of input generators. When preconditions describe rich stru
+ ctural constraints\, purely random generators rarely produce many valid in
+ puts\, forcing developers to write specialized generators by hand. Unfortu
+ nately\, such generators are often incomplete\, i.e.\, they may fail to pr
+ oduce many valid inputs\, limiting the behaviors explored during testing. 
+ However\, it is not readily apparent how to validate whether a particular 
+ generator provides sufficient coverage against a given precondition. Typic
+ ally\, developers must rely on manual inspection and post-hoc analysis. In
+  this talk\, I will present a refinement type-based framework for reasonin
+ g about the coverage of test input generators. Our key idea is coverage ty
+ pes\, an interpretation of refinement types that captures must-style guara
+ ntees about the values a program will produce\, rather than the traditiona
+ l may-style approximation of possible outputs. Conceptually\, coverage typ
+ es bring ideas from Incorrectness logic and underapproximate reasoning int
+ o the type system. The types associated with expressions now capture the s
+ et of values guaranteed to be produced by an expression\, rather than the 
+ typical formulation that uses types to represent the set of values an expr
+ ession may produce. This automated\, underapproximate reasoning mechanism 
+ allows us to formally verify coverage properties of generators in a higher
+ -order functional language with inductive data types. Building on this fou
+ ndation\, I will also describe a synthesis-based program repair technique 
+ that automatically patches incomplete generators by enumerating candidate 
+ repairs guided by coverage types. Together\, these ideas enable both verif
+ ication and automated repair of test generators\, providing stronger guara
+ ntees about the effectiveness of property-based testing and illustrating h
+ ow incorrectness-style\, underapproximate reasoning can be integrated with
+  modern type systems to support practical testing workflows.
 LOCATION:https://us02web.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUd
  HU0djQT09
 ORGANIZER:MAILTO:vss
