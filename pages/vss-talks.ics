@@ -4,33 +4,31 @@ PRODID:-//alvg calendar generator//PL related talks//EN
 REFRESH-INTERVAL;VALUE=DURATION:PT4H
 X-WR-CALNAME:VSS Talks
 BEGIN:VEVENT
-SUMMARY:VSS - Raven: a concurrency-aware intermediate verification languag
- e
-DTSTART;TZID=Asia/Calcutta:20260609T190000
-DTEND;TZID=Asia/Calcutta:20260609T203000
-UID:2026-06@vss-iarcs
+SUMMARY:VSS - Multi-Modal Verification of Distributed Systems in Lean
+DTSTART;TZID=Asia/Calcutta:20260714T190000
+DTEND;TZID=Asia/Calcutta:20260714T203000
+UID:2026-07@vss-iarcs
 DESCRIPTION:Meeting Details: Zoom link\, ID: 891 6409 4870\, Passcode: 082
  194\n\n Talk-Webpage: https://fmindia.cmi.ac.in/vss/\n\n\n\nhttps://us02we
- b.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUdHU0djQT09\n\nTitle: Rav
- en: a concurrency-aware intermediate verification language\n\nSpeaker: Eka
- nshdeep Gupta\n\nAbstract: We present Raven\, a concurrency-aware intermed
- iate verification language (IVL) designed to prove linearizability of conc
- urrent algorithms and data structures. Most front-end verification tools s
- uch as Dafny\, Verus\, and Prusti are based on IVLs like Boogie and Viper\
- , which do not support concurrency. This means that front-end developers m
- ust model concurrency semantics on top of the IVL—a complex and error-pr
- one task that must be performed from scratch for each new front-end. By pr
- oviding concurrency support directly within the IVL\, Raven aims to offer 
- a compelling new foundation for developing custom front-ends that enable s
- ophisticated concurrency reasoning. Raven is based on the Iris Separation 
- Logic Framework\, which has demonstrated impressive success in academic ci
- rcles due to its expressiveness and generality. However\, being mechanized
-  in Rocq\, Iris has a high barrier to entry and provides little automation
- . By bringing strong SMT-based automation to Iris\, Raven enables lineariz
- ability verification at scale and makes the power of Iris accessible to a 
- broader audience. We have implemented and verified a library of concurrent
-  data structures with Raven\, including the Michael-Scott queue\, Treiber 
- stack\, ticket lock\, and B+ trees.
+ b.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUdHU0djQT09\n\nTitle: Mul
+ ti-Modal Verification of Distributed Systems in Lean\n\nSpeaker: Ilya Serg
+ ey\n\nAbstract: In this talk\, I will present Veil\, a framework for autom
+ ated and interactive verification of transition systems\, aimed specifical
+ ly at conducting machine-assisted proofs about concurrent and distributed 
+ algorithms. Veil is implemented on top of the Lean proof assistant. It all
+ ows one to describe a transition system and its specification in a simple 
+ imperative language\, verifying it using both dynamic and symbolic executi
+ on techniques. Veil allows one to check the desired safety properties in t
+ he style of TLA+ using explicit-state model-checking. For symbolic deducti
+ ve reasoning\, Veil produces verification conditions in first-order logic\
+ , to be discharged automatically via a range of SMT solvers. In case autom
+ ated verification fails or if the system's description requires statements
+  in a higher-order logic\, Veil provides an interactive verification mode\
+ , by virtue of being embedded in a general-purpose proof assistant. Veil's
+  automated verification performance is acceptable for practical verificati
+ on tasks\, while it also allows for seamless automated/interactive verific
+ ation of system specifications beyond the reach of existing automated prov
+ ers.
 LOCATION:https://us02web.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUd
  HU0djQT09
 ORGANIZER:MAILTO:vss
