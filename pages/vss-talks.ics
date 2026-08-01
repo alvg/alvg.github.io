@@ -4,31 +4,23 @@ PRODID:-//alvg calendar generator//PL related talks//EN
 REFRESH-INTERVAL;VALUE=DURATION:PT4H
 X-WR-CALNAME:VSS Talks
 BEGIN:VEVENT
-SUMMARY:VSS - Multi-Modal Verification of Distributed Systems in Lean
-DTSTART;TZID=Asia/Calcutta:20260714T193000
-DTEND;TZID=Asia/Calcutta:20260714T210000
-UID:2026-07@vss-iarcs
+SUMMARY:VSS - Linux Driver Verification: Achievements and Prospects
+DTSTART;TZID=Asia/Calcutta:20260811T190000
+DTEND;TZID=Asia/Calcutta:20260811T203000
+UID:2026-08@vss-iarcs
 DESCRIPTION:Meeting Details: Zoom link\, ID: 891 6409 4870\, Passcode: 082
  194\n\n Talk-Webpage: https://fmindia.cmi.ac.in/vss/\n\n\n\nhttps://us02we
- b.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUdHU0djQT09\n\nTitle: Mul
- ti-Modal Verification of Distributed Systems in Lean\n\nSpeaker: Ilya Serg
- ey\n\nAbstract: In this talk\, I will present Veil\, a framework for autom
- ated and interactive verification of transition systems\, aimed specifical
- ly at conducting machine-assisted proofs about concurrent and distributed 
- algorithms. Veil is implemented on top of the Lean proof assistant. It all
- ows one to describe a transition system and its specification in a simple 
- imperative language\, verifying it using both dynamic and symbolic executi
- on techniques. Veil allows one to check the desired safety properties in t
- he style of TLA+ using explicit-state model-checking. For symbolic deducti
- ve reasoning\, Veil produces verification conditions in first-order logic\
- , to be discharged automatically via a range of SMT solvers. In case autom
- ated verification fails or if the system's description requires statements
-  in a higher-order logic\, Veil provides an interactive verification mode\
- , by virtue of being embedded in a general-purpose proof assistant. Veil's
-  automated verification performance is acceptable for practical verificati
- on tasks\, while it also allows for seamless automated/interactive verific
- ation of system specifications beyond the reach of existing automated prov
- ers.
+ b.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUdHU0djQT09\n\nTitle: Lin
+ ux Driver Verification: Achievements and Prospects\n\nSpeaker: Vadim Mutil
+ in\n\nAbstract: This talk focuses on the automatic verification of Linux k
+ ernel device drivers. I will discuss the unique challenges that device dri
+ vers pose for software verification\, as well as the characteristics of Li
+ nux kernel development that must be taken into account when designing effe
+ ctive verification techniques. I will present static verification approach
+ es that have helped identify more than 400 real bugs in Linux device drive
+ rs. The talk will cover the classes of defects these techniques can detect
+ \, their current limitations\, and promising directions for future researc
+ h.
 LOCATION:https://us02web.zoom.us/j/89164094870?pwd=eUFNRWp0bHYxRVpwVVNoVUd
  HU0djQT09
 ORGANIZER:MAILTO:vss
